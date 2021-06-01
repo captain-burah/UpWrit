@@ -2,9 +2,10 @@
     <div class="card w-100 mt-3" >
         <div class="card-body" >
             <router-link :to="{ name: 'classroom', params: {id } }">
-                <h5 class="card-title">{{ title }}</h5>
+                <h3 class="card-title">{{ title }}</h3>
             </router-link>
-            <h4 class="card-text m-0">{{ instructor }}</h4>
+            <img src="img/2.jpg" class="img-thumbnail rounded mx-auto d-block" alt="loading">
+            <h3 class="card-text m-0">{{ instructor }}</h3>
             <p class="card-text">Starting from January onwards</p>
         </div>
     </div>
@@ -19,5 +20,9 @@ export default {
     .card{
         background: rgba(255,255,255,0.2);
         backdrop-filter: saturate(150%) blur(12px);
+    }
+    .img-thumbnail{
+        height: 200px;
+        width: 550px;
     }
 </style>

@@ -1998,6 +1998,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 
 
@@ -2031,6 +2037,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     'title': String,
@@ -2050,6 +2057,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ClassListItem__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ClassListItem */ "./resources/js/landing/classes/ClassListItem.vue");
+//
+//
+//
 //
 //
 //
@@ -2133,30 +2143,6 @@ __webpack_require__.r(__webpack_exports__);
         instructor: "Tuan Burah"
       }, {
         title: "Media",
-        instructor: "Tuan Burah"
-      }, {
-        title: "English",
-        instructor: "Tuan Burah"
-      }, {
-        title: "Physics",
-        instructor: "Tuan Burah"
-      }, {
-        title: "Accounting",
-        instructor: "Tuan Burah"
-      }, {
-        title: "Combined Mathematics",
-        instructor: "Tuan Burah"
-      }, {
-        title: "Media",
-        instructor: "Tuan Burah"
-      }, {
-        title: "English",
-        instructor: "Tuan Burah"
-      }, {
-        title: "English",
-        instructor: "Tuan Burah"
-      }, {
-        title: "English",
         instructor: "Tuan Burah"
       }];
       _this.loading = false;
@@ -6672,7 +6658,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.card[data-v-9d12e6cc]{\n    background: rgba(255,255,255,0.2);\n    -webkit-backdrop-filter: saturate(150%) blur(12px);\n            backdrop-filter: saturate(150%) blur(12px);\n}\n", ""]);
+exports.push([module.i, "\n.card[data-v-9d12e6cc]{\n    background: rgba(255,255,255,0.2);\n    -webkit-backdrop-filter: saturate(150%) blur(12px);\n            backdrop-filter: saturate(150%) blur(12px);\n}\n.img-thumbnail[data-v-9d12e6cc]{\n    height: 200px;\n    width: 550px;\n}\n", ""]);
 
 // exports
 
@@ -38858,18 +38844,12 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "container-flex mb-5" },
-          [
-            _c("h1", { staticClass: "container" }, [
-              _vm._v("Popular Lecture Halls")
-            ]),
-            _vm._v(" "),
-            _c("classes")
-          ],
+          { staticClass: "container-flex mb-5 pt-4" },
+          [_c("classes"), _vm._v(" "), _vm._m(0)],
           1
         ),
         _vm._v(" "),
-        _vm._m(0)
+        _vm._m(1)
       ]),
       _vm._v(" "),
       _c("footer")
@@ -38878,6 +38858,20 @@ var render = function() {
   )
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row mx-3" }, [
+      _c("h2", { staticClass: "ml-auto my-auto" }, [
+        _c(
+          "a",
+          { staticClass: "text-muted nav-link py-0", attrs: { href: "" } },
+          [_vm._v("see more")]
+        )
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -38918,10 +38912,15 @@ var render = function() {
         _c(
           "router-link",
           { attrs: { to: { name: "classroom", params: { id: _vm.id } } } },
-          [_c("h5", { staticClass: "card-title" }, [_vm._v(_vm._s(_vm.title))])]
+          [_c("h3", { staticClass: "card-title" }, [_vm._v(_vm._s(_vm.title))])]
         ),
         _vm._v(" "),
-        _c("h4", { staticClass: "card-text m-0" }, [
+        _c("img", {
+          staticClass: "img-thumbnail rounded mx-auto d-block",
+          attrs: { src: "img/2.jpg", alt: "loading" }
+        }),
+        _vm._v(" "),
+        _c("h3", { staticClass: "card-text m-0" }, [
           _vm._v(_vm._s(_vm.instructor))
         ]),
         _vm._v(" "),
@@ -38956,7 +38955,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: " mx-5" }, [
-    _vm._v("\n    Rows is: " + _vm._s(_vm.rows) + "\n    "),
     _vm.loading
       ? _c("div", [_vm._v("\n        Data is loading ....\n    ")])
       : _c(
@@ -38964,7 +38962,7 @@ var render = function() {
           _vm._l(_vm.rows, function(row) {
             return _c(
               "div",
-              { key: "row" + row, staticClass: "row py-2" },
+              { key: "row" + row, staticClass: "row pb-2" },
               [
                 _vm._l(_vm.classesInRow(row), function(classs, column) {
                   return _c(

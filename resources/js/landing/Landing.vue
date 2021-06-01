@@ -2,13 +2,19 @@
     <div>
         <topics></topics>
         <main>
+            
             <div class="container-flex"><!-- Cover -->
               <cover></cover>
             </div><!-- /Cover -->
 
-            <div class="container-flex mb-5">
-                <h1 class="container">Popular Lecture Halls</h1>
+            <div class="container-flex mb-5 pt-4">
                 <classes></classes>
+                <div class="row mx-3">
+                    <!-- <h1 >Popular Ongoing Lectures</h1> -->
+                    <h2 class="ml-auto my-auto">
+                        <a href="" class="text-muted nav-link py-0">see more</a>
+                    </h2>
+                </div>
             </div>
 
             <div class="container-flex">

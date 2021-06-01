@@ -1,11 +1,14 @@
 <template>
     <div class=" mx-5">
-        Rows is: {{ rows }}
+        <!-- <div class="row">
+            <p class="pl-3">Rows is: {{ rows }}</p>
+            
+        </div>         -->
         <div v-if="loading">
             Data is loading ....
         </div>
         <div v-else>
-            <div class="row py-2" 
+            <div class="row pb-2" 
                 v-for="row in rows" 
                 :key="'row' + row"
             >
@@ -95,42 +98,14 @@ export default ({
                     title: "Media",
                     instructor: "Tuan Burah",
                 },
-                {
-                    title: "English",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "Physics",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "Accounting",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "Combined Mathematics",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "Media",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "English",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "English",
-                    instructor: "Tuan Burah",
-                },
-                {
-                    title: "English",
-                    instructor: "Tuan Burah",
-                },
+                
             ];
             this.loading = false;
 
         }, 3000);
+        
+        
+        
 
     },
     
