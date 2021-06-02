@@ -1,11 +1,13 @@
 <template>
     <div>
-        <topics></topics>
+        
         <main>
             
             <div class="container-flex"><!-- Cover -->
               <cover></cover>
             </div><!-- /Cover -->
+
+            <topics></topics>
 
             <div class="container-flex mb-5 pt-4">
                 <classes></classes>

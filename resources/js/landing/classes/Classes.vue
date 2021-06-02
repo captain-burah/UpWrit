@@ -12,13 +12,13 @@
                 v-for="row in rows" 
                 :key="'row' + row"
             >
-                <div class="col d-flex align-items-stretch" 
+                <div class="col-lg-3 d-flex align-items-stretch" 
                     v-for="(classs, column) in classesInRow(row)"
                     :key="'row' + row + column"
                 >
                     <class-list-item v-bind="classs"></class-list-item>
                 </div>
-                <div class="col" v-for="p in placeholdersInRow(row)" :key="'row' + p">
+                <div class="col-md" v-for="p in placeholdersInRow(row)" :key="'row' + p">
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ import VueRouter from "vue-router";
 import Classes from "./landing/classes/Classes";
 import Classroom from "./landing/classroom/Classroom";
 import Landing from "./landing/Landing";
+import Browse from "./landing/browser/Browse";
 
 const routes = [
     
@@ -19,6 +20,11 @@ const routes = [
         path: "/classroom/:id",
         component: Classroom,
         name: "classroom",
+    },
+    {
+        path: "/browse",
+        component: Browse,
+        name: "browse",
     }
 ];
 

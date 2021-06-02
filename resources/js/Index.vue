@@ -25,7 +25,7 @@
                             </li>
                         </ul>
                         <router-link class="text-dark nav-link pl-0" 
-                            :to="{name: ''}">
+                            :to="{name: 'browse'}">
                             Browse Classes
                         </router-link>
                         <router-link class="text-dark nav-link pl-0" 
