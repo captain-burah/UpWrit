@@ -1957,6 +1957,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1978,6 +1979,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_Topics_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main/Topics.vue */ "./resources/js/landing/main/Topics.vue");
 /* harmony import */ var _main_Cover_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main/Cover.vue */ "./resources/js/landing/main/Cover.vue");
 /* harmony import */ var _classes_Classes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./classes/Classes */ "./resources/js/landing/classes/Classes.vue");
+//
+//
+//
 //
 //
 //
@@ -2030,17 +2034,6 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_Topics_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../main/Topics.vue */ "./resources/js/landing/main/Topics.vue");
 /* harmony import */ var _BrowseSearch_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BrowseSearch.vue */ "./resources/js/landing/browser/BrowseSearch.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -38956,50 +38949,19 @@ var render = function() {
     [
       _c("topics"),
       _vm._v(" "),
-      _c("div", { staticClass: "container pt-4" }, [_c("browse-search")], 1),
-      _vm._v(" "),
-      _vm._m(0)
+      _c("main", { staticClass: "container-fluid m-0 p-0" }, [
+        _c(
+          "div",
+          { staticClass: "pt-4 px-4 text-center" },
+          [_c("browse-search")],
+          1
+        )
+      ])
     ],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-flex text-center" }, [
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "div",
-          {
-            staticClass: "col-md-2",
-            staticStyle: { "background-color": "red" }
-          },
-          [_vm._v("\n                f\n            ")]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "col-md-8",
-            staticStyle: { "background-color": "black" }
-          },
-          [_vm._v("\n                f\n            ")]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "col-md-2",
-            staticStyle: { "background-color": "red" }
-          },
-          [_vm._v("\n                f\n            ")]
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -39021,77 +38983,123 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "row pt-4" }, [
+      _c("div", { staticClass: "col-md-2" }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-md-8" },
+        [_c("h2", [_vm._v("Search")]), _vm._v(" "), _c("router-view")],
+        1
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-2" })
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "row container" }, [
-        _c("form", { staticClass: "form-inline" }, [
-          _c(
-            "label",
-            { staticClass: "sr-only", attrs: { for: "inlineFormInputName2" } },
-            [_vm._v("Name")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control mb-2 mr-sm-2",
-            attrs: {
-              type: "text",
-              id: "inlineFormInputName2",
-              placeholder: "Jane Doe"
-            }
-          }),
-          _vm._v(" "),
-          _c(
-            "label",
-            {
-              staticClass: "sr-only",
-              attrs: { for: "inlineFormInputGroupUsername2" }
-            },
-            [_vm._v("Username")]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "input-group mb-2 mr-sm-2" }, [
-            _c("div", { staticClass: "input-group-prepend" }, [
-              _c("div", { staticClass: "input-group-text" }, [_vm._v("@")])
+    return _c("div", { staticClass: "row d-flex justify-content-center" }, [
+      _c("form", { staticClass: "form-inline " }, [
+        _c(
+          "label",
+          { staticClass: "my-1 mr-2 sr-only", attrs: { for: "Level" } },
+          [_vm._v("Level")]
+        ),
+        _vm._v(" "),
+        _c(
+          "select",
+          { staticClass: "custom-select my-1 mr-sm-2", attrs: { id: "Level" } },
+          [
+            _c("option", { attrs: { selected: "" } }, [_vm._v("Choose Level")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "alevel" } }, [
+              _vm._v("Advance Level")
             ]),
             _vm._v(" "),
-            _c("input", {
-              staticClass: "form-control",
-              attrs: {
-                type: "text",
-                id: "inlineFormInputGroupUsername2",
-                placeholder: "Username"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-check mb-2 mr-sm-2" }, [
-            _c("input", {
-              staticClass: "form-check-input",
-              attrs: { type: "checkbox", id: "inlineFormCheck" }
-            }),
+            _c("option", { attrs: { value: "olevel" } }, [
+              _vm._v("Ordinary Level")
+            ]),
             _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "form-check-label",
-                attrs: { for: "inlineFormCheck" }
-              },
-              [_vm._v("\n                Remember me\n                ")]
-            )
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary mb-2", attrs: { type: "submit" } },
-            [_vm._v("Submit")]
-          )
-        ])
+            _c("option", { attrs: { value: "igcse-alevel" } }, [
+              _vm._v("IGCSE Advance Level")
+            ]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "igcse-olevel" } }, [
+              _vm._v("IGCSE Ordinary Level")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "label",
+          { staticClass: "my-1 mr-2 sr-only", attrs: { for: "Batch" } },
+          [_vm._v("Level")]
+        ),
+        _vm._v(" "),
+        _c(
+          "select",
+          { staticClass: "custom-select my-1 mr-sm-2", attrs: { id: "Batch" } },
+          [
+            _c("option", { attrs: { selected: "" } }, [_vm._v("Choose Batch")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "" } }, [_vm._v("2024")])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "label",
+          { staticClass: "my-1 mr-2 sr-only", attrs: { for: "Subject" } },
+          [_vm._v("Subject")]
+        ),
+        _vm._v(" "),
+        _c(
+          "select",
+          {
+            staticClass: "custom-select my-1 mr-sm-2",
+            attrs: { id: "Subject" }
+          },
+          [
+            _c("option", { attrs: { selected: "" } }, [
+              _vm._v("Choose Subject")
+            ]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "" } })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "label",
+          { staticClass: "my-1 mr-2 sr-only", attrs: { for: "Location" } },
+          [_vm._v("Location")]
+        ),
+        _vm._v(" "),
+        _c(
+          "select",
+          {
+            staticClass: "custom-select my-1 mr-sm-2",
+            attrs: { id: "Location" }
+          },
+          [
+            _c("option", { attrs: { selected: "" } }, [
+              _vm._v("Choose Location")
+            ]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "" } })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "button",
+          { staticClass: "btn btn-primary ", attrs: { type: "submit" } },
+          [_vm._v("Submit")]
+        )
       ])
     ])
   }

@@ -1,23 +1,12 @@
 <template>
     <div>
         <topics></topics>
-        <div class="container pt-4">
-            <browse-search></browse-search>
-        </div>
-        
-        <div class="container-flex text-center">
-            <div class="row">
-                <div class="col-md-2" style="background-color:red;">
-                    f
-                </div>
-                <div class="col-md-8" style="background-color:black;">
-                    f
-                </div>
-                <div class="col-md-2" style="background-color:red;">
-                    f
-                </div>
+
+        <main class="container-fluid m-0 p-0">
+            <div class="pt-4 px-4 text-center">
+                <browse-search></browse-search>
             </div>
-        </div>
+        </main>
     </div>
 </template>
 
@@ -33,3 +22,5 @@ export default {
     
 }
 </script>
+<style >
+</style>
