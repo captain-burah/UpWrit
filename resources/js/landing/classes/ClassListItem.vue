@@ -2,9 +2,9 @@
     <div class="card w-100 mt-3" >
         <div class="card-body" >
             <router-link :to="{ name: 'classroom', params: {id } }">
-                <h3 class="card-title">{{ title }}</h3>
+                <h4 class="card-title">{{ title }}</h4>
             </router-link>
-            <img src="img/2.jpg" class="img-thumbnail rounded mx-auto d-block" alt="loading">
+            <img src="img/3.png" class="img-thumbnail rounded mx-auto d-block mt-3" alt="loading">
             <h3 class="card-text m-0">{{ instructor }}</h3>
             <p class="card-text">Starting from January onwards</p>
         </div>
@@ -23,6 +23,6 @@ export default {
     }
     .img-thumbnail{
         height: 200px;
-        width: 550px;
+        width: 200px;
     }
 </style>
