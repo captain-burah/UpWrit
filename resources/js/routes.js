@@ -3,14 +3,21 @@ import Classes from "./landing/classes/Classes";
 import Classroom from "./landing/classroom/Classroom";
 import Landing from "./landing/Landing";
 import Browse from "./landing/browser/Browse";
+import ComingLanding from "./comingSoon/Landing";
+
 
 const routes = [
     
     {
         path: "/",
-        component: Landing,
-        name: "landing",
+        component: ComingLanding,
+        name: "cominglanding",
     },
+    // {
+    //     path: "/",
+    //     component: Landing,
+    //     name: "landing",
+    // },
     {
         path: "/classes",
         component: Classes,

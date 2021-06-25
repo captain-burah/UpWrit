@@ -12,6 +12,6 @@
 */
 
 Route::get('/{any?}', function () {
-    return view('welcome');
+    return view('comingSoon');
 })->where('any', '^(?!api\/)[\/\w\.\,-]*');
 

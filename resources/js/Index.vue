@@ -3,7 +3,7 @@
         <div class="shadow px-3">
             <header>
                 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-                    <a href="/" class="navbar-brand">LaravelVLE</a>
+                    <a href="/" class="navbar-brand">UpWrit</a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" 
                         data-target="#navbarCollapse" aria-controls="navbarCollapse" 
@@ -24,7 +24,7 @@
                                 <a class="nav-link" href="#">தமிழ்</a>
                             </li>
                         </ul>
-                        <router-link class="text-dark nav-link pl-0" 
+                        <router-link class="text-dark nav-link pl-0 ml-auto" 
                             :to="{name: 'browse'}">
                             Browse Classes
                         </router-link>
