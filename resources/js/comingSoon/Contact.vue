@@ -2,17 +2,19 @@
     <div class="container mx-auto">
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8 my-auto text-center back py-4 px-5">
-                <h1 style="font-family: 'Concert One', cursive; font-size: 4.3rem; line-height: 1.0">
+            <div class="col-md-8 my-auto text-center py-4 px-5">
+                <h1 
+                    class="animate__animated animate__fadeInUp"
+                    style="font-family: 'Concert One', cursive; font-size: 4.3rem; line-height: 1.0">
                     Contact Us
                 </h1>
-                <h5>You can still reach us while our site is under construction</h5>
-                <h5>
-                    WhatsApp Business +94-76-769-8844 <br>
+                <h5 class="animate__animated animate__fadeIn animate__delay-1s">You can still reach us while our site is under construction</h5>
+                <h5 class="animate__animated animate__fadeIn animate__delay-1s">
+                    WhatsApp +94-76-769-8844 <br>
                     Email us upwrit@gmail.com
                 </h5>
                 <br>
-                <div>
+                <div class="animate__animated animate__fadeIn animate__delay-1s">
                     <h6>Be the first to hear about our exclusive offers and special events.</h6>
                     <a class="btn btn-dark mx-3" href="https://www.facebook.com/upwrit"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark mx-3" href="https://www.instagram.com/up_writ/"><i class="fab fa-instagram"></i></a>
@@ -27,6 +29,7 @@
 .back{
     backdrop-filter: saturate(120%) blur(3px);
     border-radius: 20px;
+    z-index: .1;
 }
     
 </style>

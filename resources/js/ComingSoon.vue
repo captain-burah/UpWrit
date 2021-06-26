@@ -1,7 +1,8 @@
 <template>
     <div class="vh-100 text-dark image" style="background-image: url('img/comingSoon/15.jpg');">
         <header style="z-index: 2">
-            <nav class="navbar navbar-fixed navbar-expand-lg navbar-light bg-transparent">
+            <nav class="navbar navbar-fixed navbar-expand-lg navbar-light bg-transparent 
+                    animate__animated animate__slideInDown animate__delay-1s">
                 <div class="container ">
                     <a class="navbar-brand" href="/">
                         <img src="img/comingSoon/logo.jpg" width="30" height="30" 
@@ -25,25 +26,18 @@
             </nav>
         </header>
 
-        <main role="main" style="z-index: .5" >
+        <main role="main" style="z-index: .5;" >
+            <div class="row mobile-hide position-absolute mx-5 pl-5" style="height: 75vh;">
+                <img class="mt-auto animate__animated animate__fadeIn animate__delay-2s" src="svg/3.svg" height="200em">
+            </div>
             <div class="container d-flex align-items-center" style="height: 80vh">
                 <router-view></router-view>
             </div>
         </main>
 
-        <footer class="footer mt-auto py-3 bg-transparent">
+        <footer class="footer mt-auto py-3 bg-transparent animate__animated animate__slideInUp animate__delay-1s">
             <comingfooter></comingfooter>
-        </footer>
-        
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-        <!-- <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div> -->
-        
+        </footer>        
     </div>
 </template>
 
@@ -54,10 +48,19 @@ export default {
         comingfooter: ComingFooter,
     }
 }
+
 </script>
 
-<style scoped>
+<style>
 .image{
     background: center center no-repeat;
+}
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    .mobile-hide{ display: none !important; } 
+    .mobile-view{ display:flexbox !important; }
+}
+
+@media screen and (min-width: 720px){
+    .mobile-view{ display: none !important;}
 }
 </style>
