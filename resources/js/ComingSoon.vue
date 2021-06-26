@@ -17,8 +17,8 @@
                     </button>
                     <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
-                            <a class="nav-link mx-4" href="#">About</a>
-                            <a class="nav-link mx-4" href="#">Contact</a>
+                            <router-link class="nav-link mx-4" :to="{name: 'comingabout'}">About</router-link>
+                            <router-link class="nav-link mx-4" :to="{name: 'comingcontact'}">Contact</router-link>
                         </div>
                     </div>
                 </div>

@@ -4,6 +4,8 @@ import Classroom from "./landing/classroom/Classroom";
 import Landing from "./landing/Landing";
 import Browse from "./landing/browser/Browse";
 import ComingLanding from "./comingSoon/Landing";
+import ComingAbout from "./comingSoon/About";
+import ComingContact from "./comingSoon/Contact";
 
 
 const routes = [
@@ -12,6 +14,16 @@ const routes = [
         path: "/",
         component: ComingLanding,
         name: "cominglanding",
+    },
+    {
+        path: "/about",
+        component: ComingAbout,
+        name: "comingabout"
+    },
+    {
+        path: "/contact",
+        component: ComingContact,
+        name: "comingcontact"
     },
     // {
     //     path: "/",

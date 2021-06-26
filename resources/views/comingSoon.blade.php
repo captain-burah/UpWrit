@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-
+        <link rel="icon" type="image/png" href="{{asset('img/favicon/5.png')}}">
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
