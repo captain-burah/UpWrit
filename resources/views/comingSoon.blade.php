@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 
-        <link rel="icon" type="image/png" href="{{asset('img/favicon/5.png')}}">
+        
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
         <!-- CSRF Token -->
@@ -18,7 +18,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="/css/app.css" rel="stylesheet">
         
     </head>
 
@@ -27,6 +27,6 @@
         <div id="app">
             <comingsoon></comingsoon>
         </div>
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="/js/app.js" defer></script>
     </body>
 </html>
