@@ -2,9 +2,9 @@
     <div class="container mx-auto">
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-9 my-auto text-center py-4 px-5 bg-light border-round" style="opacity: .8; height: 300px;">
+            <div class="col-md-10 my-auto text-center py-4 px-5 bg-light border-round" style="opacity: .8; height: 300px;">
                 <div class="row my-4 pt-5">
-                    <div class="col-md-7 my-auto">
+                    <div class="col-md-6 my-auto">
                         <h1 
                             class="animate__animated animate__fadeInLeft animate__delay-2s pb-4"
                             style="font-family: 'Concert One', cursive; font-size: 4.3rem; line-height: 1.0">
@@ -12,14 +12,15 @@
                         </h1>       
                     </div>
                     <div class="col-md-1 my-auto"></div>
-                    <div class="col-md-4 my-auto text-left">
-                        <h5 class="animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="col-md-5 my-auto text-left">
+                        <h3 class="animate__animated animate__fadeIn animate__delay-1s">
                             You can still reach us while our site is under construction
-                        </h5>
-                        <h5 class="animate__animated animate__fadeIn animate__delay-1s">
-                            WhatsApp +94-76-769-8844 <br>
-                            Email us upwrit@gmail.com
-                        </h5>
+                        </h3>
+                        <br>
+                        <h3 class="animate__animated animate__fadeIn animate__delay-1s">
+                            <i class="fab fa-whatsapp"></i>&nbsp; +94-76-769-8844 <br>
+                            <i class="fas fa-envelope"></i>&nbsp; upwritsolutions@gmail.com
+                        </h3>
                     </div>
                 </div>
             </div>

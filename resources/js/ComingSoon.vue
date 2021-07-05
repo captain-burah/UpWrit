@@ -8,7 +8,7 @@
                             class="rounded" 
                             alt="..."
                             height="50px" width="50px">
-                        <a class="navbar-brand" style="font-family: Raleway; font-weight: 700">
+                        <a href="/" class="navbar-brand" style="font-family: Raleway; font-weight: 700">
                             UpWrit
                         </a>
 

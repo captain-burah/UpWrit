@@ -6916,7 +6916,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.backdrop[data-v-7012c0fc] {\r\n    -webkit-backdrop-filter: saturate(120%) blur(4px) drop-shadow(4px 4px 10px blue);\r\n            backdrop-filter: saturate(120%) blur(4px) drop-shadow(4px 4px 10px blue);\r\n    border-radius: 20px;\n}\r\n    \r\n", ""]);
+exports.push([module.i, "\n.backdrop[data-v-7012c0fc] {\r\n    -webkit-backdrop-filter: saturate(120%) blur(4px) drop-shadow(4px 4px 10px blue);\r\n            backdrop-filter: saturate(120%) blur(4px) drop-shadow(4px 4px 10px blue);\r\n    border-radius: 20px;\n}\n[data-v-7012c0fc]:root {\r\n  --animate-delay: 5s;\n}\r\n    \r\n", ""]);
 
 // exports
 
@@ -39117,7 +39117,8 @@ var render = function() {
                   staticStyle: {
                     "font-family": "Raleway",
                     "font-weight": "700"
-                  }
+                  },
+                  attrs: { href: "/" }
                 },
                 [
                   _vm._v(
@@ -39445,17 +39446,17 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "col-md-9 my-auto text-center py-4 px-5 bg-light border-round",
+              "col-md-10 my-auto text-center py-4 px-5 bg-light border-round",
             staticStyle: { opacity: ".8", height: "300px" }
           },
           [
             _c("div", { staticClass: "row my-4 pt-5" }, [
-              _c("div", { staticClass: "col-md-7 my-auto" }, [
+              _c("div", { staticClass: "col-md-4 my-auto" }, [
                 _c(
                   "h1",
                   {
                     staticClass:
-                      "animate__animated animate__fadeInLeft animate__delay-2s pb-4",
+                      "text-right animate__animated animate__fadeInLeft animate__delay-2s pb-4",
                     staticStyle: {
                       "font-family": "'Concert One', cursive",
                       "font-size": "4.3rem",
@@ -39470,18 +39471,19 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-md-1 my-auto" }),
+              _c("div", { staticClass: "col-md-3 my-auto" }),
               _vm._v(" "),
-              _c("div", { staticClass: "col-md-4 my-auto" }, [
+              _c("div", { staticClass: "col-md-5 my-auto" }, [
                 _c(
-                  "h5",
+                  "h3",
                   {
                     staticClass:
-                      "animate__animated animate__fadeIn animate__delay-1s my-auto\n                        text-left"
+                      "animate__animated animate__fadeIn animate__delay-1s my-auto\n                        text-left",
+                    staticStyle: { "font-family": "Raleway" }
                   },
                   [
                     _vm._v(
-                      "\n                        We're a group of undergrads, professionals & postgrads working towards \n                        the betterment of our society, \n                        following a professional code of ethics, bringing you closer to your goal.                    \n                    "
+                      "\n                        We are a young, enthusiastic group of professionals, postgrads and undergrads \n                        working towards the future of our modern society, embracing a strong professional \n                        code of ethics certifying our trustworthy services.\n                    "
                     )
                   ]
                 )
@@ -39531,12 +39533,12 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "col-md-9 my-auto text-center py-4 px-5 bg-light border-round",
+              "col-md-10 my-auto text-center py-4 px-5 bg-light border-round",
             staticStyle: { opacity: ".8", height: "300px" }
           },
           [
             _c("div", { staticClass: "row my-4 pt-5" }, [
-              _c("div", { staticClass: "col-md-7 my-auto" }, [
+              _c("div", { staticClass: "col-md-6 my-auto" }, [
                 _c(
                   "h1",
                   {
@@ -39558,9 +39560,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "col-md-1 my-auto" }),
               _vm._v(" "),
-              _c("div", { staticClass: "col-md-4 my-auto text-left" }, [
+              _c("div", { staticClass: "col-md-5 my-auto text-left" }, [
                 _c(
-                  "h5",
+                  "h3",
                   {
                     staticClass:
                       "animate__animated animate__fadeIn animate__delay-1s"
@@ -39572,20 +39574,21 @@ var staticRenderFns = [
                   ]
                 ),
                 _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
                 _c(
-                  "h5",
+                  "h3",
                   {
                     staticClass:
                       "animate__animated animate__fadeIn animate__delay-1s"
                   },
                   [
-                    _vm._v(
-                      "\n                        WhatsApp +94-76-769-8844 "
-                    ),
+                    _c("i", { staticClass: "fab fa-whatsapp" }),
+                    _vm._v("  +94-76-769-8844 "),
                     _c("br"),
-                    _vm._v(
-                      "\n                        Email us upwrit@gmail.com\n                    "
-                    )
+                    _vm._v(" "),
+                    _c("i", { staticClass: "fas fa-envelope" }),
+                    _vm._v("  upwritsolutions@gmail.com\n                    ")
                   ]
                 )
               ])
@@ -39667,17 +39670,17 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container mx-auto " }, [
       _c("div", { staticClass: "row " }, [
-        _c("div", { staticClass: "col-md-1" }),
+        _c("div", { staticClass: "col-md-2" }),
         _vm._v(" "),
         _c(
           "div",
           {
-            staticClass: "col-md-9 my-auto text-center py-4 px-5 bg-light",
+            staticClass: "col-md-8 my-auto text-center py-4 px-5 bg-light",
             staticStyle: { opacity: ".8", height: "300px" }
           },
           [
             _c("div", { staticClass: "row py-5 mt-4" }, [
-              _c("div", { staticClass: "col-md-7" }, [
+              _c("div", { staticClass: "col-md-6" }, [
                 _c(
                   "h1",
                   {
@@ -39702,9 +39705,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "col-md-1" }),
               _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
+              _c("div", { staticClass: "col-md-5" }, [
                 _c(
-                  "h2",
+                  "h1",
                   {
                     staticClass:
                       "text-left animate__animated animate__fadeInUp animate__delay-2s"
@@ -39717,14 +39720,14 @@ var staticRenderFns = [
                 ),
                 _vm._v(" "),
                 _c(
-                  "h5",
+                  "h3",
                   {
                     staticClass:
                       "text-left animate__animated animate__fadeInUp animate__delay-2s"
                   },
                   [
                     _vm._v(
-                      "\n                        We'll be back soon! In the meantime, follow us to be ready for the Grand Day!"
+                      "\n                        We'll be back soon! In the meantime, follow us to be ready for the Grand Day!\n                    "
                     )
                   ]
                 ),
@@ -39734,7 +39737,7 @@ var staticRenderFns = [
                     "a",
                     {
                       staticClass:
-                        "btn btn-dark m-3 animate__animated animate__rotateIn animate__delay-4s",
+                        "btn btn-dark m-3 animate__animated animate__rotateIn animate__delay-3s",
                       attrs: { href: "https://www.facebook.com/upwrit" }
                     },
                     [_c("i", { staticClass: "fab fa-facebook-f" })]
@@ -39744,10 +39747,23 @@ var staticRenderFns = [
                     "a",
                     {
                       staticClass:
-                        "btn btn-dark m-3 animate__animated animate__rotateIn animate__delay-5s",
+                        "btn btn-dark m-3 animate__animated animate__rotateIn animate__delay-4s",
                       attrs: { href: "https://www.instagram.com/up_writ/" }
                     },
                     [_c("i", { staticClass: "fab fa-instagram" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass:
+                        "btn btn-dark m-3 animate__animated animate__rotateIn animate__delay-5s",
+                      attrs: {
+                        href:
+                          "https://www.linkedin.com/company/upwrit-solutions"
+                      }
+                    },
+                    [_c("i", { staticClass: "fab fa-linkedin-in" })]
                   )
                 ])
               ])
