@@ -13,6 +13,8 @@
         <title>UpWrit Solutions</title>
         
         <!-- Font Awesome icons (free version)-->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <link
             rel="stylesheet"

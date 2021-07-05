@@ -8,12 +8,20 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.carousel.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.theme.default.min.css') }}">
+        
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
         <div id="app">
-            <index></index>
+            <comingsoon></comingsoon>
         </div>
+        
+        <script src="{{ asset('owlcarousel/jquery.min.js') }}"></script>
+        <script src="{{ asset('owlcarousel/owl.carousel.min.js') }}"></script>
     </body>
 </html>
