@@ -18,7 +18,7 @@
     </head>
     <body>
         <div id="app">
-            <comingsoon></comingsoon>
+            <index></index>
         </div>
         
         <script src="{{ asset('owlcarousel/jquery.min.js') }}"></script>

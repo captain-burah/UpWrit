@@ -10,11 +10,11 @@ import ComingContact from "./comingSoon/Contact";
 
 const routes = [
     
-    {
-        path: "/",
-        component: ComingLanding,
-        name: "cominglanding",
-    },
+    // {
+    //     path: "/",
+    //     component: ComingLanding,
+    //     name: "cominglanding",
+    // },
     {
         path: "/about",
         component: ComingAbout,
@@ -25,11 +25,11 @@ const routes = [
         component: ComingContact,
         name: "comingcontact"
     },
-    // {
-    //     path: "/",
-    //     component: Landing,
-    //     name: "landing",
-    // },
+    {
+        path: "/",
+        component: Landing,
+        name: "landing",
+    },
     {
         path: "/classes",
         component: Classes,

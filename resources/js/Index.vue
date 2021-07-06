@@ -1,58 +1,23 @@
 <template>
-    <div class="container-fluid">
-        <div class="px-3">
-            <header>
-                <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light shadow-sm">
-
-                    <div class="container">
-                        <img src="img/landing/upwrit-(logo-large-800x800).jpg" 
-                            class="rounded" 
-                            alt="..."
-                            height="50px" width="50px">
-                        <a class="navbar-brand" style="font-family: Raleway; font-weight: 700">
-                            UpWrit
-                        </a>
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                            data-target="#navbarCollapse" aria-controls="navbarCollapse" 
-                            aria-expanded="false" aria-label="Toggle navigation"
-                        >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" 
-                            id="navbarCollapse" 
-                            style="font-family: Raleway; font-weight: 700">
-                            
-                            <router-link class=" nav-link pl-0 ml-auto px-4"
-                                :to="{name: 'landing'}">
-                                <a>Home</a>
-                            </router-link>
-                            <router-link class=" nav-link pl-0 mx-4" 
-                                :to="{name: 'landingabout'}">
-                                About
-                            </router-link>
-                            <router-link class=" nav-link pl-0 mx-4" 
-                                :to="{name: 'landingservices'}">
-                                Services
-                            </router-link>
-                            <router-link class=" nav-link pl-0 mx-4" 
-                                :to="{name: 'landingfaqs'}">
-                                FAQs
-                            </router-link>
-                            <router-link class=" nav-link pl-0 mx-4" 
-                                :to="{name: 'landingcontact'}">
-                                Contact
-                            </router-link>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-        </div>
-        
-        <div class="container-flex mt-5 pt-2">
-            <router-view></router-view>
-        </div>
+    <div class="bg-gray-100 sm:bg-yellow-400">
+         <div class="px-8 py-12 space-y-6 max-w-md mx-auto sm:max-w-xl">
+             <img src="img/comingSoon/19.jpg" class="h-20" alt="Logo" />
+             <img src="img/comingSoon/12.jpg" class="rounded-lg shadow-xl sm:mt-8 sm:h-32 sm:w-full sm:object-cover object-center"  alt="image"/>
+             <h1 class=" text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl">
+                 You can work from anywhere! <span class=" text-yellow-700">Take advantage of it.</span>
+            </h1>
+            <p class="mt-2 text-gray-600 sm:mt-4 smLtext-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="mt-4">
+                <a href="#" class=" inline-block rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm px-5 py-3 bg-indigo-500 bg-opacity-50  text-white">Book your escape!</a>
+            </div>
+         </div>
         
     </div>
 </template>

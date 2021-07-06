@@ -1,5 +1,6 @@
 require('./bootstrap');
 
+import "tailwindcss/tailwind.css"
 import router from "./routes";
 import VueRouter from "vue-router";
 import Vue from "vue";
