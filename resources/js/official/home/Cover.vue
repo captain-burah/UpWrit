@@ -1,0 +1,62 @@
+<template>
+    <div class="grid md:grid-cols-5 my-auto flex mx-auto">
+        
+        <div class="md:col-span-2 flex"> 
+            
+            <div  
+                class="my-auto md:px-24 md:py-8 px-8 pt-8 pb-4 mx-auto space-y-4 ">
+                
+                <div class="md:max-w-xl max-w-md">
+
+                    <carousel :autoplay="true" :nav="false" :items="1" :margin="20" :dots="true"
+                        :responsive="{0:{items:1,nav:false},600:{items:3,nav:true}}">
+                        <div>
+                            <h1 class="md:text-6xl text-4xl text-indigo-400 font-bold mb-4">
+                                Headline comes here!
+                            </h1>
+                            <p class="text-gray-600 md:text-2xl text-xl text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="md:text-6xl text-4xl text-red-400 font-bold mb-4">
+                                Headline comes Two!
+                            </h1>
+                            <p class="text-gray-600 md:text-2xl text-xl text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                        </div>
+                    </carousel>    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hidden relative md:block md:col-span-3 md:max-w-full px-8">
+            <div 
+                class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 
+                    shadow-2xl transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+            </div>
+            <img src="img/comingSoon/12.jpg" 
+                class="absolute rounded-2xl shadow-xl h-full
+                        inset-0 w-full object-cover object-center my-auto border-4 border-white"
+                alt="image"
+            />
+        </div>
+    </div>
+
+</template>
+<script>
+import carousel from 'vue-owl-carousel2';
+
+export default {
+    components: {
+        carousel
+    },
+}
+</script>
