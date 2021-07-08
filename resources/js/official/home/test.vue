@@ -28,7 +28,10 @@
                     </p>
 
                     <div class="mt-4">
-                        <a href="#" class=" inline-block rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm px-5 py-3 bg-indigo-500 bg-opacity-50  text-white">Book your escape!</a>
+                        <a href="#" class=" inline-block rounded-lg shadow-lg uppercase tracking-wider 
+                        font-semibold text-sm px-5 py-3 bg-indigo-500 bg-opacity-50  text-white">
+                        Book your escape!
+                    </a>
                     </div>
                 </div>
             </div>

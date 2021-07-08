@@ -6,6 +6,8 @@ import Browse from "./landing/browser/Browse";
 import ComingLanding from "./comingSoon/Landing";
 import ComingAbout from "./comingSoon/About";
 import ComingContact from "./comingSoon/Contact";
+import Home from "./official/home/home.vue";
+
 
 
 const routes = [
@@ -16,6 +18,11 @@ const routes = [
     //     name: "cominglanding",
     // },
     {
+        path: "/",
+        component: Home,
+        name: "home",
+    },
+    {
         path: "/about",
         component: ComingAbout,
         name: "comingabout"
@@ -25,11 +32,11 @@ const routes = [
         component: ComingContact,
         name: "comingcontact"
     },
-    {
-        path: "/",
-        component: Landing,
-        name: "landing",
-    },
+    // {
+    //     path: "/",
+    //     component: Landing,
+    //     name: "landing",
+    // },
     {
         path: "/classes",
         component: Classes,
