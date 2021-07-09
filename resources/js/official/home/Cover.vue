@@ -1,5 +1,5 @@
 <template>
-    <div class="grid md:grid-cols-5 my-auto flex mx-auto">
+    <div class="grid md:grid-cols-5 my-auto flex mx-auto px-0">
         
         <div class="md:col-span-2 flex"> 
             
@@ -40,11 +40,11 @@
         <div class="hidden relative md:block md:col-span-3 md:max-w-full px-8">
             <div 
                 class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 
-                    shadow-2xl transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+                    shadow-2xl transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl w-3/4 mx-auto">
             </div>
             <img src="img/comingSoon/12.jpg" 
                 class="absolute rounded-2xl shadow-xl h-full
-                        inset-0 w-full object-cover object-center my-auto border-4 border-white"
+                        inset-0 w-3/4 object-cover object-center my-auto border-4 border-white mx-auto"
                 alt="image"
             />
         </div>

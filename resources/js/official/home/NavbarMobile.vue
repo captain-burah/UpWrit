@@ -1,6 +1,6 @@
 <template>
     <div id="navigation-mobile">
-        <div class="">
+        <div class="mx-0 px-0">
             <h1 class="mx-4 px-5 py-5 my-4 text-3xl text-bold text-white border-b-1" 
                 style="font-family: Raleway;">
                 UpWrit <span class="text-lg"> Solutions</span>

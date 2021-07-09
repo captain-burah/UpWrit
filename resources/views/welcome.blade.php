@@ -15,6 +15,12 @@
         
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
     </head>
     <body>
         <div id="app" class="">

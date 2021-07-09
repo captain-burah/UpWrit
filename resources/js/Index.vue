@@ -1,20 +1,27 @@
 <template>
-    <div class="bg-gray-900"  style="z-index: -1;">   
+    <div style="z-index: -1;">
         
+        <!-- Navbar -->
         <navibar-mobile class="menubar md:hidden"></navibar-mobile>
 
-        <div class="bg-fixed bg-center relative mainBody w-screen mx-auto" 
+        <!-- body -->
+        <div class="bg-fixed bg-center relative mainBody w-full mx-0 px-0 bg-no-repeat bg-cover" 
             style="background-image: url('img/comingSoon/blur3.jpg'); z-index: 1"
             :class="{'open':showNav}">
             
+            <!-- Desktop View navbar -->
             <div class="container w-screen flex flex-wrap items-center justify-between mx-0" >
+                
+                <!-- Mobile View navbar -->
                 <navibar v-if="!mobileView"></navibar>
 
+                <!-- Mobile View Navbar Switcher -->
                 <div class="container w-screen px-4 py-3 mx-auto flex flex-wrap items-center justify-between 
                         bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400" 
                     v-if="mobileView"
                     >
 
+                    <!-- Mobile View Navbar Switcher Items -->
                     <div class="w-full relative flex justify-between lg:w-auto  px-4 items-center"
                         @click="showNav = !showNav">
 
