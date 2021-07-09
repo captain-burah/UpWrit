@@ -1,5 +1,5 @@
 <template>
-    <div style="z-index: -1;">
+    <div class="bg-gradient-to-t from-gray-700 via-gray-900 to-black" style="z-index: -1;">
         
         <!-- Navbar -->
         <navibar-mobile class="menubar md:hidden"></navibar-mobile>
@@ -17,7 +17,7 @@
 
                 <!-- Mobile View Navbar Switcher -->
                 <div class="container w-screen px-4 py-3 mx-auto flex flex-wrap items-center justify-between 
-                        bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400" 
+                        bg-gradient-to-l from-pink-500 via-red-500 to-yellow-500 shadow-lg" 
                     v-if="mobileView"
                     >
 

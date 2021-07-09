@@ -11,7 +11,6 @@
                             leading-snug text-white hover:opacity-75" 
                         href="#pablo"
                         style="font-family: Raleway;">
-                        <i class="fab fa-twitter text-lg leading-lg text-white opacity-75" /> 
                         <span class="ml-2">Home</span>
                     </a>
                 </li>

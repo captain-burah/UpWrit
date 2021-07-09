@@ -1,5 +1,7 @@
 <template>
-    <div class="grid md:grid-cols-5 my-auto flex mx-auto px-0">
+<div class="grid grid-rows-6 grid-flow-col h-4/6 gap-20 my-auto mx-auto px-0 items-center ">
+    
+    <div class="row-span-5 grid row md:grid-cols-5 my-auto flex mx-auto px-0 md:pt-5">
         
         <div class="md:col-span-2 flex"> 
             
@@ -8,10 +10,10 @@
                 
                 <div class="md:max-w-xl max-w-md">
 
-                    <carousel :autoplay="true" :nav="false" :items="1" :margin="20" :dots="true"
+                    <carousel :autoplay="true" :nav="false" :items="1" :margin="20" :dots="false"
                         :responsive="{0:{items:1,nav:false},600:{items:3,nav:true}}">
                         <div>
-                            <h1 class="md:text-6xl text-4xl text-indigo-400 font-bold mb-4">
+                            <h1 class="md:text-6xl text-6xl text-indigo-400 font-bold mb-4">
                                 Headline comes here!
                             </h1>
                             <p class="text-gray-600 md:text-2xl text-xl text-justify">
@@ -21,7 +23,7 @@
                             </p>
                         </div>
                         <div>
-                            <h1 class="md:text-6xl text-4xl text-red-400 font-bold mb-4">
+                            <h1 class="md:text-6xl text-6xl text-red-400 font-bold mb-4">
                                 Headline comes Two!
                             </h1>
                             <p class="text-gray-600 md:text-2xl text-xl text-justify">
@@ -48,8 +50,18 @@
                 alt="image"
             />
         </div>
+        
     </div>
-
+    <div class="grid row items-center h-auto mx-auto my-0 py-0 bottom-0">
+        <div class=" my-0 p-7 bottom-0 rounded-full shadow-lg">
+            <a href="#" 
+                v-scroll-to="'#feature1'"
+                class="text-7xl bottom-0">
+                <i class="fas fa-arrow-down text-gray-400"></i>
+            </a>
+        </div>
+    </div>
+</div>
 </template>
 <script>
 import carousel from 'vue-owl-carousel2';
