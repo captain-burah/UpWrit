@@ -2,8 +2,9 @@
     <div >
         
         <!-- Cover -->
-        <div class="flex h-screen bg-white my-auto mx-0 px-0 max-w-screen">                
-            <cover></cover>
+        <div class="flex h-screen bg-cover bg-center bg-no-repeat my-auto mx-0 px-0 max-w-screen"
+                    >                
+            <cover ></cover>
             
         </div>
 
