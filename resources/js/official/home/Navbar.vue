@@ -1,16 +1,16 @@
 <template>
 <div id="navigation">
     <nav class="md:fixed relative w-screen flex flex-wrap items-center justify-between px-2 py-4 
-            bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-0 z-10 shadow-lg mx-0">
+            backdrop-filter backdrop-sepia backdrop-blur-md backdrop-contrast-200 mb-0 z-10 shadow-lg mx-0">
         <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div class="w-full relative flex justify-between lg:w-auto  px-4 md:static md:block 
                     md:justify-start items-center">
                 <div class="block px-3 flex">
                     <img 
                         src="img/comingSoon/19.jpg" 
-                        class="rounded-xl inline-block items-center mx-1 border-2 border-gray-900" 
-                        height="40px" 
-                        width="45px" 
+                        class="rounded-xl inline-block items-center h-full mx-1 border-2 border-gray-900" 
+                        height="10px" 
+                        width="35px" 
                         alt="Logo"
                     />
                     <a class="text-3xl font-medium leading-relaxed inline-block mx-5 py-2 

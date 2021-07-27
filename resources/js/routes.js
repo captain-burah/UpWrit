@@ -7,6 +7,7 @@ import ComingLanding from "./comingSoon/Landing";
 import ComingAbout from "./comingSoon/About";
 import ComingContact from "./comingSoon/Contact";
 import Home from "./official/home/home.vue";
+import HomeV2 from "./version2/home/Home.vue";
 
 
 
@@ -19,7 +20,7 @@ const routes = [
     // },
     {
         path: "/",
-        component: Home,
+        component: HomeV2,
         name: "home",
     },
     {
