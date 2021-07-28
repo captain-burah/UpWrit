@@ -22,7 +22,7 @@
         </style>
     </head>
     <body>
-        <div id="app" class="container">
+        <div id="app" class="">
             <index></index>
         </div>
         

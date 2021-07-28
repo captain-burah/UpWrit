@@ -12,7 +12,7 @@ module.exports = {
         sky: colors.sky,
         cyan: colors.cyan,
         "upwrit-purple": "#5267DF",
-        "upwrit-red": "#FA5959",
+        "upwrit-red": "#F05454",
         "upwrit-blue": "#242A45",
         "upwrit-grey": "#9194A2",
         "upwrit-white": "#F7F7F7",
@@ -23,11 +23,22 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: "1rem"
-    }
+      padding: "1rem",
+      screens: {
+        lg: "1124px",
+        xl: "1124px",
+        "2xl": "1124px",
+      }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
 }
+
+// "upwrit-purple": "#5267DF",
+//         "upwrit-red": "#FA5959",
+//         "upwrit-blue": "#242A45",
+//         "upwrit-grey": "#9194A2",
+//         "upwrit-white": "#F7F7F7",
