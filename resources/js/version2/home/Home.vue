@@ -1,14 +1,15 @@
 <template>
   <div class="w-full">
-      
+
+        <div class="bg-upwrit-blue text-white py-6">
+            <h1 class="text-xl text-center">
+                Our website is currenytly under construction. Sorry for any inconveniences caused.
+                
+            </h1>
+        </div>
+
         <!-- Header -->
         <header class="container">
-            <div class="bg-upwrit-blue text-white py-6">
-                <h1 class="text-xl text-center">
-                    Our website is currenytly under construction.
-                    <countdown></countdown>
-                </h1>
-            </div>
             <navbar></navbar>
         </header>
 
@@ -184,12 +185,10 @@
                             "Its a new age for advertising; digital marketing" 
                         </p>
                         <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">
-                            orem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium nunc non euismod imperdiet. 
-                            Cras rhoncus tellus at dui finibus, et gravida turpis dictum. Praesent pellentesque, 
-                            risus in faucibus vulputate, purus leo elementum enim, et placerat ipsum nisl id magna. 
-                            Proin eu fringilla quam, quis euismod sapien. Pellentesque euismod nibh velit, vestibulum luctus dolor dignissim ac. 
-                            Proin in neque nibh. Duis in odio placerat urna dapibus lacinia. 
-                            Mauris ultrices risus eget elementum consectetur. Integer in volutpat sem.
+                            Armed with diverse perspectives and experiences, our high-energy
+                            teams unite to develop world-class digital experiences that grow
+                            companies. From brand strategy to web development to digital
+                            marketing, beautiful design isn’t just what we do; it’s our life’s work.
                         </p>
                         <button type="button" class="btn btn-purple hover:bg-upwrit-white hover:text-upwrit-purple">
                             More info
@@ -270,7 +269,7 @@
             <!-- Heading -->
             <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
                 <h1 class="text-5xl text-center text-upwrit-blue">
-                    Our Authors
+                    Who are we?
                 </h1>
             </div>
 
@@ -281,8 +280,8 @@
                 <div class="flex flex-col rounded-xl shadow-md lg:mb-16">
                     <div class="p-6 flex flex-col items-center">
                         <img 
-                            class="rounded-full w-1/2 h-1/2 sm:w-1/2 sm:h-1/2"
-                            src="img/v2/tkb4.jpeg" 
+                            class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
+                            src="img/v2/tkb6.jpeg" 
                             alt="ceo_img"
                         />
                         <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
@@ -358,9 +357,9 @@
         </section>
 
         <!-- FAQ -->
-        <section class="bg-upwrit-white py-20">
+        <!-- <section class="bg-upwrit-white py-20">
             <div class="container ">
-                <!-- Heading -->
+                
                 <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
                     <h1 class="text-5xl text-center text-upwrit-blue leading-tight">
                         Frequently Asked Questions
@@ -371,21 +370,12 @@
                     </p>
                 </div>
 
-                <!-- FAQ Items -->
+                
                 <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
                     <div class="flex items-center vorder-b py-4 cursor-pointer">
                         <span class="flex-1">What is a bookmark?</span>
                         <i class="text-upwrit-purple fas fa-chevron-down"></i>
-                    </div>
-
-                    <div class="flex items-center vorder-b py-4 cursor-pointer">
-                        <span class="flex-1">What is a bookmark?</span>
-                        <i class="text-upwrit-purple fas fa-chevron-down"></i>
-                    </div>
-
-                    <div class="flex items-center vorder-b py-4 cursor-pointer">
-                        <span class="flex-1">What is a bookmark?</span>
-                        <i class="text-upwrit-purple fas fa-chevron-down"></i>
+                        
                     </div>
 
                     <button type="button" class="flex self-center mt-12 btn btn-purple hover:bg-upwrit-white hover:text-upwrit-purple">
@@ -394,7 +384,7 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <!-- Container -->
         <section class="bg-upwrit-purple text-white py-20">
@@ -420,22 +410,112 @@
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class="bg-upwrit-blue py-16">
-            <div class="container flex flex-col md:flex-row items-center">
-                <div class="flex flex-1 flex-wrap items-center justify-center lg:justify-start gap-12">
-                    <ul class="flex text-white uppercase gap-12 text-md">
-                        <li class="cursor-pointer">Services</li>
-                        <li class="cursor-pointer">Features</li>
-                        <li class="cursor-pointer">Contact</li>
-                    </ul>   
-                </div>
+        <footer class="bg-upwrit-blue pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20">
+            <div class="container mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
 
-                <div class="flex gap-10 mt-12 md:mt-0">
-                     <li><i class="text-white text-2xl fab fa-twitter"></i></li>
-                     <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
-                     <li><i class="text-white text-2xl fab fa-twitter"></i></li>
-                </div>
+                <ul class="text-sm font-medium pb-14 sm:pb-20 
+                    grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
+                    
+                    <li class="col-span-2 space-y-5 row-span-2">
+                        <div class="col-span-2 flex flex-1 justify-start items-center gap-12">
+                            <img class="rounded-2xl w-52 h-52 md:w-32 md:h-32"
+                                src="img/comingSoon/logo.jpg"
+                                
+                                alt="brand_logo" 
+                            />
+                            <div class="grid grid-rows-2 gap-4 my-auto">
+                                <div>
+                                    <span class="text-5xl text-white mt-8" style="font-family: 'Raleway';">
+                                        UpWrit™ Solutions  
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="text-md text-white" style="font-family: 'Raleway';">
+                                        &copy; Copyright 2021. All Rights Reserved.
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+
+                    <li class="space-y-5 row-span-2 text-white">
+                        <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
+                            Services
+                        </h2>
+                        <ul class="space-y-4">
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Graphic Design
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Content Writing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Web Creation
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Digital Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Financial Accounting
+                                </a>
+                            </li>
+                            
+                        </ul> 
+                    </li>
+
+                    <li class="space-y-5 row-span-2 text-white">
+                        <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
+                            Community
+                        </h2>
+                        <ul class="space-y-4">
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-gray-900 transition-colors duration-200" 
+                                href="#">
+                                GitHub
+                                </a>
+                            </li>
+                            
+                        </ul> 
+                    </li>
+                </ul>
             </div>
         </footer>
   </div> 
