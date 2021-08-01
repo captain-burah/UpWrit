@@ -314,7 +314,7 @@
                             Hansaka Chathuranga 
                         </h3>
                         <p class="mb-2 text-upwrit-grey font-light">
-                            Director of Operations & Strategy
+                            Director of Operations & Finance
                         </p>
                         <p class="mb-2 text-upwrit-grey font-light">
                             CBA
