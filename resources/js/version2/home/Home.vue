@@ -3,7 +3,7 @@
 
         <div class="bg-upwrit-blue text-white py-6">
             <h1 class="text-xl text-center">
-                Our website is currenytly under construction. Sorry for any inconveniences caused.
+                Our website is currently under construction. Sorry for any inconveniences caused.
                 
             </h1>
         </div>
