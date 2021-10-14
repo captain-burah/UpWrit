@@ -15,9 +15,9 @@
                 <li class="cursor-pointer">Services</li>
                 <li class="cursor-pointer">Features</li>
                 <li class="cursor-pointer">Contact</li>
-                <button type="button" class="bg-upwrit-red text-white rounded-md px-7 py-3 uppercase">
+                <!-- <button type="button" class="bg-upwrit-red text-white rounded-md px-7 py-3 uppercase">
                     Login
-                </button>
+                </button> -->
             </ul>
 
             <div class="flex sm:hidden flex-1 justify-end">
