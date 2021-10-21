@@ -1,12 +1,12 @@
 <template>
   <div class="w-full">
 
-        <div class="bg-upwrit-blue text-white py-6">
+        <!-- <div class="bg-upwrit-info text-white py-6">
             <h1 class="text-xl text-center">
                 Our website is currenytly under construction. Sorry for any inconveniences caused.
                 
             </h1>
-        </div>
+        </div> -->
 
         <!-- Header -->
         <header class="container">
@@ -19,19 +19,20 @@
                 <!-- Content -->
                 <div class="flex flex-1 flex-col items-center lg:items-start">
                     <h2 class="text-upwrit-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">
-                        Your Premium Tailor in Software Products
+                        Your Premium Tailor in Business Solutions
                     </h2>
                     <p class="text-upwrit-grey text-lg text-center lg:text-left mb-6">
                         We are a young, enthusiastic group of professionals, postgrads and undergrads 
-                        working towards the future of our modern society, embracing a strong professional 
+                        working towards the future of a modern society, embracing a strong professional 
                         code of ethics certifying our trustworthy services.
                     </p>
                     <div class="flex justify-center flex-wrap gap-6">
-                        <button type="button" class="btn btn-purple hover:bg-upwrit-white hover:text-black">
-                            Make an appointment
-                        </button>
-                        <button type="button" class="btn btn-white hover:bg-upwrit-purple hover:text-white">
-                            Learn more
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScltdehM_hjc0t1PX4mjP6aUMugrWuxOCQb8I3-kGvhvDoeGw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" target="_blank">
+                        <button type="button" class="btn btn-yellow hover:bg-upwrit-info hover:text-white text-black">
+                            Get a Quote 
+                        </button></a>
+                        <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black">
+                            Schedule an Appointment
                         </button>
                     </div>
                 </div>
@@ -40,15 +41,15 @@
                 <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
                     <img
                         class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
-                        src="img/v2/hero-bg.png" 
+                        src="img/v2/new/10.svg" 
                         alt="hero_img"
                     />
                 </div>
             </div>
 
             <!-- Rounded Rectangle -->
-            <div class="hidden md:block overflow-hidden bg-upwrit-blue rounded-l-full absolute 
-                        h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0">
+            <div class="hidden md:block overflow-hidden bg-upwrit-yellow rounded-l-full absolute 
+                        h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0 opacity-80">
             </div>
         </section>
 
@@ -67,198 +68,23 @@
             </div>
 
             <!-- Feature #1  Graphic -->
-            <div class="relative mt-20 lg:mt-24 ">
-                <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    
-                    <!-- Image -->
-                    <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <img
-                            class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
-                            src="img/v2/undraw_Tabs_re_a2bd.svg" 
-                            alt="feature1_image">
-                    </div>
-
-                    <!-- Content -->
-                    <div class="flex flex-1 flex-col items-center lg:items-start px-12">
-                        <h1 class="text-4xl text-upwrit-blue">
-                            Graphic Design
-                        </h1>
-                        <p class="text-2xl text-upwrit-grey my-4 text-center sm:w-3/4 lg:w-full italic">
-                            "Organize your life & work however you like with the right design" 
-                        </p>
-                        <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">
-                            UpWrit has an offshore graphic design team based in Colombo, who invests their creativity, 
-                            imagination, and technology at the helm of its graphic designers, with sheer will & focus on achieving 
-                            our client's objectives.
-                            <br>
-                            <br>
-                            Our simple process in graphical and visual designing
-                            gives you a competetive nature to you and your business. 
-                        </p>
-                        <button type="button" class="btn btn-purple hover:bg-upwrit-white hover:text-upwrit-purple">
-                            More info
-                        </button>
-                    </div>
-                </div>
-                <!-- Rounded Rectangle -->
-                <div 
-                    class="
-                        hidden 
-                        lg:block 
-                        overflow-hidden 
-                        bg-upwrit-purple 
-                        rounded-r-full 
-                        absolute 
-                        h-80 
-                        w-2/4 
-                        -bottom-24
-                        -left-0"
-                >
-                </div>
+            <div class="relative mt-20 lg:mt-24  my-60">
+                <digital-marketing></digital-marketing>
             </div>
 
             <!-- Feature #2 WEB -->
-            <div class="relative mt-20 lg:mt-52 ">
-                <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
-                    
-                    <!-- Image -->
-                    <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <img
-                            class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
-                            src="img/v2/undraw_web_shopping_dd4l.svg" 
-                            alt="feature1_image">
-                    </div>
-
-                    <!-- Content -->
-                    <div class="flex flex-1 flex-col items-center lg:items-end px-12">
-                        <h1 class="text-4xl text-upwrit-blue text-center lg:text-right sm:w-3/4 lg:w-full">
-                            Web Creation
-                        </h1>
-                        <p class="text-2xl text-upwrit-grey my-4 text-center sm:w-3/4 lg:w-full italic">
-                            "If you can dream it, we can design it" 
-                        </p>
-                        <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">
-                            Elevate your business with a trusted website that your customers will love.
-                            Build with a renowned, intuitive team of designers, content writers and developers, manage your 
-                            brand from one place and grow your online presence.
-                        </p>
-                        <button type="button" class="btn btn-purple hover:bg-upwrit-white hover:text-upwrit-purple">
-                            More info
-                        </button>
-                    </div>
-                </div>
-                <!-- Rounded Rectangle -->
-                <div 
-                    class="
-                        hidden 
-                        lg:block 
-                        overflow-hidden 
-                        bg-upwrit-blue 
-                        rounded-l-full 
-                        absolute 
-                        h-80 
-                        w-2/4 
-                        -bottom-24
-                        -right-0"
-                >
-                </div>
+            <div class="relative mt-20 lg:mt-52  my-60">
+                <web-design></web-design>
             </div>
 
             <!-- Feature #3 Marketing -->
-            <div class="relative mt-20 lg:mt-52 ">
-                <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    
-                    <!-- Image -->
-                    <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <img
-                            class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
-                            src="img/v2/undraw_Social_media_re_w12q.svg" 
-                            alt="feature1_image">
-                    </div>
-
-                    <!-- Content -->
-                    <div class="flex flex-1 flex-col items-center lg:items-start px-12">
-                        <h1 class="text-4xl text-upwrit-blue">
-                            Digital Marketing
-                        </h1>
-                        <p class="text-2xl text-upwrit-grey my-4 text-center sm:w-3/4 lg:w-full italic">
-                            "Its a new age for advertising; digital marketing" 
-                        </p>
-                        <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">
-                            Armed with diverse perspectives and experiences, our high-energy
-                            teams unite to develop world-class digital experiences that grow
-                            companies. From brand strategy to web development to digital
-                            marketing, beautiful design isn’t just what we do; it’s our life’s work.
-                        </p>
-                        <button type="button" class="btn btn-purple hover:bg-upwrit-white hover:text-upwrit-purple">
-                            More info
-                        </button>
-                    </div>
-                </div>
-                
-                <!-- Rounded Rectangle -->
-                <div 
-                    class="
-                        hidden 
-                        lg:block 
-                        overflow-hidden 
-                        bg-upwrit-red 
-                        rounded-r-full 
-                        absolute 
-                        h-80 
-                        w-2/4 
-                        -bottom-36
-                        -left-0"
-                >
-                </div>
+            <div class="relative mt-20 lg:mt-52 my-60">
+                <graphic-designing></graphic-designing>
             </div>
 
             <!-- Feature #4 Financial Accounting -->
-            <div class="relative mt-20 lg:mt-52 ">
-                <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
-                    
-                    <!-- Image -->
-                    <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <img
-                            class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
-                            src="img/v2/undraw_Finance_re_gnv2.svg" 
-                            alt="feature1_image">
-                    </div>
-
-                    <!-- Content -->
-                    <div class="flex flex-1 flex-col items-center lg:items-end px-12">
-                        <h1 class="text-4xl text-upwrit-blue text-center lg:text-right sm:w-3/4 lg:w-full">
-                            Financial Accounting
-                        </h1>
-                        <p class="text-2xl text-upwrit-grey my-4 text-center sm:w-3/4 lg:w-full italic">
-                            "Focus on growing your business, trust the accounting to us." 
-                        </p>
-                        <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">
-                            Our Financial Accounting Services practice comprises of a dedicated memeber or a team providing 
-                            accounting and financial reporting advice and support to clients on a wide range of transactions 
-                            and events, including adherence to new or revised accounting standards and effective management 
-                            of the financial reporting processes.
-                        </p>
-                        <button type="button" class="btn btn-purple hover:bg-upwrit-white hover:text-upwrit-purple">
-                            More info
-                        </button>
-                    </div>
-                </div>
-                <!-- Rounded Rectangle -->
-                <div 
-                    class="
-                        hidden 
-                        lg:block 
-                        overflow-hidden 
-                        bg-upwrit-blue 
-                        rounded-l-full 
-                        absolute 
-                        h-80 
-                        w-2/4 
-                        -bottom-24
-                        -right-0"
-                >
-                </div>
+            <div class="relative mt-20 lg:mt-52  my-60">
+                <financial-accounting></financial-accounting>
             </div>
 
         </section>
@@ -269,7 +95,7 @@
             <!-- Heading -->
             <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
                 <h1 class="text-5xl text-center text-upwrit-blue">
-                    Who are we?
+                    Who are <sapn class="bg-upwrit-yellow text-blue" style="font-family: Raleway;"> we</sapn>?
                 </h1>
             </div>
 
@@ -281,22 +107,22 @@
                     <div class="p-6 flex flex-col items-center">
                         <img 
                             class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
-                            src="img/v2/tkb6.jpeg" 
+                            src="img/v2/dp/hanii4.jpg" 
                             alt="ceo_img"
                         />
                         <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
-                            Tuan Burah 
+                            Hansaka Chathuranga 
                         </h3>
                         <p class="mb-2 text-upwrit-grey font-light">
-                            CEO
+                            Director of Operations & Finance
                         </p>
-                        <p class="mb-2 text-upwrit-grey font-light">
-                            BCS P.G.D. in IT
+                        <p class="mb-2 text-upwrit-grey font-light text-center">
+                            CBA
                         </p>
                     </div>
                     <hr class="border-b border-upwrit-white"/>
                     <div class="flex p-6">
-                        <button type="button" class="flex-1 btn btn-purple hover:bg-upwrit-white hover:text-blue">
+                        <button type="button" class="flex-1 btn btn-info hover:bg-upwrit-yellow hover:text-black">
                             Contact
                         </button>
                     </div>
@@ -307,22 +133,22 @@
                     <div class="p-6 flex flex-col items-center">
                         <img 
                             class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
-                            src="img/v2/marc.jpg" 
+                            src="img/v2/dp/khaazen2.jpg" 
                             alt="ceo_img"
                         />
                         <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
-                            Hansaka Chathuranga 
+                            Tuan Burah 
                         </h3>
                         <p class="mb-2 text-upwrit-grey font-light">
-                            Director of Operations & Finance
+                            Founder & CEO
                         </p>
-                        <p class="mb-2 text-upwrit-grey font-light">
-                            CBA
+                        <p class="mb-2 text-upwrit-grey font-light text-center">
+                            Reading M.Sc. in IT, Pg.D. in IT, <br> AMBCS - Royal Charter
                         </p>
                     </div>
                     <hr class="border-b border-upwrit-white"/>
                     <div class="flex p-6">
-                        <button type="button" class="flex-1 btn btn-purple hover:bg-upwrit-white hover:text-blue">
+                        <button type="button" class="flex-1 btn btn-info hover:bg-upwrit-yellow hover:text-black">
                             Contact
                         </button>
                     </div>
@@ -333,7 +159,7 @@
                     <div class="p-6 flex flex-col items-center">
                         <img 
                             class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
-                            src="img/v2/dave.jpg" 
+                            src="img/v2/dp/yosh2.png" 
                             alt="ceo_img"
                         />
                         <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
@@ -348,7 +174,7 @@
                     </div>
                     <hr class="border-b border-upwrit-white"/>
                     <div class="flex p-6">
-                        <button type="button" class="flex-1 btn btn-purple hover:bg-upwrit-white hover:text-blue">
+                        <button type="button" class="flex-1 btn btn-info hover:bg-upwrit-yellow hover:text-black">
                             Contact
                         </button>
                     </div>
@@ -387,9 +213,8 @@
         </section> -->
 
         <!-- Container -->
-        <section class="bg-upwrit-purple text-white py-20">
+        <!-- <section class="bg-upwrit-purple text-white py-20">
             <div class="container ">
-                <!-- Heading -->
                 <div class="sm:w-3/4 lg:w-2/4 mx-auto">
                     <p class="font-light uppwercase text-center mb-8">
                         Over 10+ Projects Completed
@@ -406,9 +231,8 @@
                         </button>
                     </div>
                 </div>
-
             </div>
-        </section>
+        </section> -->
 
         <footer class="bg-upwrit-blue pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20">
             <div class="container mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
@@ -425,7 +249,7 @@
                             />
                             <div class="grid grid-rows-2 gap-4 my-auto">
                                 <div>
-                                    <span class="text-5xl text-white mt-8" style="font-family: 'Raleway';">
+                                    <span class="md:text-5xl text-2xl text-white mt-8" style="font-family: 'Raleway';">
                                         UpWrit™ Solutions  
                                     </span>
                                 </div>
@@ -525,12 +349,20 @@
 import Footer from '../../comingSoon/Footer.vue';
 
 import Navbar from "../navbar/Navbar.vue";
+import DigitalMarketing from "../services/DigitalMarketing.vue";
+import GraphicDesigning from "../services/GraphicDesigning.vue";
+import WebDesign from "../services/WebDesign.vue";
+import FinancialAccounting from "../services/FinancialAccounting.vue";
 
 // import countdown from "./Countdown.vue";
 
 export default {
     components: {
         Navbar,
+        DigitalMarketing,
+        GraphicDesigning,
+        WebDesign,
+        FinancialAccounting,
     }
 }
         Footer

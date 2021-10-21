@@ -16,6 +16,8 @@ module.exports = {
         "upwrit-blue": "#242A45",
         "upwrit-grey": "#9194A2",
         "upwrit-white": "#F7F7F7",
+        "upwrit-yellow" : "#FFD500",
+        "upwrit-info": "#2465FF",
       },
     },
     fontFamily: {
