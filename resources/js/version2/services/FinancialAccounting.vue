@@ -15,7 +15,7 @@
             <h1 class="text-4xl text-upwrit-blue text-center lg:text-right sm:w-3/4 lg:w-full">
                 Financial Accounting
             </h1>
-            <p class="text-2xl text-upwrit-grey mt-8 my-4 text-center sm:w-3/4 lg:w-full italic">
+            <p class="text-4xl text-upwrit-black mt-8 my-4 text-center sm:w-3/4 lg:w-full italic" style="font-family: 'Caveat', cursive;">
                 "Focus on growing your business, trust the accounting to us." 
             </p>
             <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">

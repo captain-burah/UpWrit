@@ -15,7 +15,7 @@
             <h1 class="text-4xl text-upwrit-blue">
                 Digital Marketing
             </h1>
-            <p class="text-2xl text-upwrit-grey mt-8 my-4 text-center sm:w-3/4 lg:w-full italic">
+            <p class="text-4xl text-upwrit-black mt-8 my-4 text-center sm:w-3/4 lg:w-full italic" style="font-family: 'Caveat', cursive;">
                 "Its a new age for advertising; digital marketing" 
             </p>
             <p class="text-xl text-upwrit-grey my-4 text-justify lg:text-justify sm:w-3/4 lg:w-full">
@@ -24,9 +24,12 @@
                 companies. From brand strategy to web development to digital
                 marketing, beautiful design isn’t just what we do; it’s our life’s work.
             </p>
-            <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black mt-6">
-                More info
-            </button>
+            <router-link to="digital-marketing">
+                <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black mt-6">
+                    More info
+                </button>
+            </router-link>
+            
         </div>
     </div>
 

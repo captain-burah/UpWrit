@@ -1,9 +1,9 @@
 import VueRouter from "vue-router";
 import Classes from "./landing/classes/Classes";
 import Classroom from "./landing/classroom/Classroom";
-import Landing from "./landing/Landing";
+import DigitalMarketing from "./version2/pages/DigitalMarketing.vue";
 import Browse from "./landing/browser/Browse";
-import ComingLanding from "./comingSoon/Landing";
+import WebDesign from "./version2/pages/WebDesign.vue";
 import ComingAbout from "./comingSoon/About";
 import ComingContact from "./comingSoon/Contact";
 import Home from "./official/home/home.vue";
@@ -24,14 +24,14 @@ const routes = [
         name: "home",
     },
     {
-        path: "/about",
-        component: ComingAbout,
-        name: "comingabout"
+        path: "/digital-marketing",
+        component: DigitalMarketing,
+        name: "digital-marketing"
     },
     {
-        path: "/contact",
-        component: ComingContact,
-        name: "comingcontact"
+        path: "/web-design-development",
+        component: WebDesign,
+        name: "web-design-development"
     },
     // {
     //     path: "/",

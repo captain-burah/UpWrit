@@ -7,13 +7,17 @@
                     height="35px" width="35px"
                     alt="brand_logo" 
                 />
-                <span class="text-2xl " style="font-family: 'Raleway';">
-                    UpWrit Solutions
-                </span>
+                <router-link to="/">
+                    <span class="text-2xl " style="font-family: 'Raleway';">
+                        UpWrit Solutions
+                    </span>
+                </router-link>
             </div>
             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-upwrit-blue uppercase text-md">
+                <li class="cursor-pointer">(+94) 76 769 8844</li>
                 <li class="cursor-pointer">Services</li>
-                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">About</li>
+                <li class="cursor-pointer">JOBS</li>
                 <li class="cursor-pointer">Contact</li>
                 <!-- <button type="button" class="bg-upwrit-red text-white rounded-md px-7 py-3 uppercase">
                     Login
