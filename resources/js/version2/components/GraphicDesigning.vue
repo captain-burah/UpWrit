@@ -27,9 +27,11 @@
                 Our simple process in graphical and visual designing
                 gives you a competetive nature to you and your business. 
             </p>
-            <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black mt-6">
-                More info
-            </button>
+            <router-link to="/graphic-design">
+                <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black mt-6">
+                    More info
+                </button>
+            </router-link>
         </div>
     </div>
     

@@ -4,6 +4,7 @@ import Classroom from "./landing/classroom/Classroom";
 import DigitalMarketing from "./version2/pages/DigitalMarketing.vue";
 import Browse from "./landing/browser/Browse";
 import WebDesign from "./version2/pages/WebDesign.vue";
+import GraphicDesign from "./version2/pages/GraphicDesign.vue";
 import ComingAbout from "./comingSoon/About";
 import ComingContact from "./comingSoon/Contact";
 import Home from "./official/home/home.vue";
@@ -33,26 +34,16 @@ const routes = [
         component: WebDesign,
         name: "web-design-development"
     },
+    {
+        path: "/graphic-design",
+        component: GraphicDesign,
+        name: "graphic-design"
+    },
     // {
     //     path: "/",
     //     component: Landing,
     //     name: "landing",
     // },
-    {
-        path: "/classes",
-        component: Classes,
-        name: "classes",
-    },
-    {
-        path: "/classroom/:id",
-        component: Classroom,
-        name: "classroom",
-    },
-    {
-        path: "/browse",
-        component: Browse,
-        name: "browse",
-    }
 ];
 
 const router = new VueRouter({

@@ -48,8 +48,8 @@
             </div>
 
             <!-- Rounded Rectangle -->
-            <div class="hidden md:block overflow-hidden bg-upwrit-info rounded-l-full absolute 
-                        h-80 w-2/4 top-60 right-0 lg:-bottom-28 lg:-right-0 opacity-80">
+            <div class="hidden md:block overflow-hidden bg-upwrit-black rounded-l-full absolute 
+                        h-80 w-2/4 top-60 right-0 lg:-bottom-28 lg:-right-0 ">
             </div>
         </section>
 
@@ -68,7 +68,7 @@
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
-                            src="img/v2/new/wd/upwrit-blog.webp" 
+                            src="img/v2/wd/upwrit-blog.webp" 
                             alt="ceo_img"
                         />
                         <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
@@ -92,7 +92,7 @@
                 </div>
 
                 <!-- Card #3 -->
-                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mt-8 h-auto ">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mt-16 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
@@ -137,7 +137,7 @@
                 </div>
 
                 <!-- Card #3 -->
-                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mt-8 h-auto ">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mt-16 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
