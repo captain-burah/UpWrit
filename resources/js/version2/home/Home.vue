@@ -28,13 +28,17 @@
                     </p>
                     <div class="flex justify-center flex-wrap gap-6">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLScltdehM_hjc0t1PX4mjP6aUMugrWuxOCQb8I3-kGvhvDoeGw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" target="_blank">
-                        <button type="button" class="btn btn-yellow hover:bg-upwrit-info hover:text-white text-black">
-                            Get a Quote 
-                        </button></a>
+                            <button type="button" class="btn btn-yellow hover:bg-upwrit-info hover:text-white text-black">
+                                <i class="fas fa-quote-right"></i>&nbsp;
+                                Get a Quote 
+                            </button>
+                        </a>
                         <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black">
+                            <i class="far fa-calendar-check"></i>&nbsp;
                             Schedule an Appointment
                         </button>
                         <button type="button" class="btn btn-black hover:bg-white hover:text-black">
+                            <i class="fas fa-briefcase"></i>&nbsp;
                             Work with us
                         </button>
                     </div>
@@ -178,81 +182,9 @@
 
         </section>
 
-        <!-- FAQ -->
+        <!-- Industries -->
         <section class="bg-upwrit-white py-20">
-            <div class="container ">
-                
-                <div class="sm:w-3/4 lg:w-3/4 mx-auto px-12">
-                    <h1 class="text-5xl text-center text-upwrit-blue leading-tight" style="font-family: 'Caveat', cursive;">
-                        OUR INDUSTRIES
-                    </h1>
-                     <p class="mt-4 text-upwrit-grey text-xl text-center mb-6">
-                         We work in a wide range of industries promoting equal access 
-                         to our services hence our slogan can be known, "Where ever you go"
-                    </p>
-                </div>
-
-                <div class="container grid grid-cols-1 md:grid-cols-3 gap-16 max-w-screen-lg">
-                    <div class="flex flex-col h-auto text-xl text-left gap-y-8">
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-network-wired text-upwrit-info"></i>&nbsp;
-                            Technology
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-money-check-alt text-upwrit-info"></i>&nbsp;
-                            Finance & Business
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-music text-upwrit-info"></i>&nbsp;
-                            Music & Entertainment
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-box text-upwrit-info"></i>&nbsp;
-                            Wholesale & Retail (FMCG)
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col-reverse h-auto text-xl text-left gap-y-8">
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-feather-alt text-upwrit-info"></i>&nbsp;
-                            Fashion & Clothing
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-football-ball text-upwrit-info"></i>&nbsp;
-                            Sports & Outdoor
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-briefcase-medical text-upwrit-info"></i>&nbsp;
-                            Healthcare
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-graduation-cap text-upwrit-info"></i>&nbsp;
-                            Education
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col h-auto text-xl text-left gap-y-8">
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-plane text-upwrit-info"></i>&nbsp;
-                            Travel
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-heart text-upwrit-info"></i>&nbsp;
-                            Lifestyle
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-hotel text-upwrit-info"></i>&nbsp;
-                            Hospitality
-                        </p>
-                        <p class="text-upwrit-grey ">
-                            <i class="fas fa-concierge-bell text-upwrit-info"></i>&nbsp;
-                            Food & Beverages
-                        </p>
-                    </div>
-                </div>
-                
-
-            </div>
+            <industries></industries>
         </section>
 
         <!-- Authors -->
@@ -330,49 +262,9 @@
             </div>
         </section>
 
-        <!-- FAQ -->
+        <!-- Contact -->
         <section class="bg-upwrit-white py-20">
-            <div class="container ">
-                
-                <div class="sm:w-3/4 lg:w-3/4 mx-auto px-12">
-                    <h1 class="text-5xl text-center text-upwrit-blue leading-tight">
-                        Contact Us
-                    </h1>
-                     <p class="mt-4 text-upwrit-grey text-xl text-center mb-6">
-                         You can reach us via Email, WhatsApp, Facebook Messenger, Instagram Direct Message or just one phone call away.
-                    </p>
-                </div>
-
-                
-                <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto text-xl">
-                    <div class="flex items-center vorder-b py-2 cursor-pointer w-40 mx-auto text-3xl">
-                        <a href="https://www.facebook.com/upwrit" target="_blank" class="text-upwrit-grey mx-auto">
-                            <i class="fab fa-facebook-f text-upwrit-info"></i>
-                        </a>
-                        <a href="https://www.instagram.com/up_writ/" target="_blank"  class="text-upwrit-grey mx-auto">
-                            <i class="fab fa-instagram text-upwrit-info"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/company/upwrit-solutions" target="_blank"  class="text-upwrit-grey mx-auto">
-                            <i class="fab fa-linkedin-in text-upwrit-info"></i>
-                        </a>
-                    </div>
-                    <div class="flex items-center vorder-b pt-4 pb-2 cursor-pointer">
-                        <span class="text-upwrit-grey mx-auto">
-                            <i class="fas fa-phone-alt text-upwrit-info"></i>
-                            &nbsp;
-                            (+94) 76 769 8844
-                        </span>
-                    </div>
-                    <div class="flex items-center vorder-b py-2 cursor-pointer">
-                        <span class="text-upwrit-grey mx-auto">
-                            <i class="fas fa-envelope text-upwrit-info"></i>
-                            &nbsp;
-                            upwritsolutions@gmail.com
-                        </span>
-                    </div>
-                </div>
-
-            </div>
+            <contact-us></contact-us>
         </section>
 
         <!-- Container -->
@@ -397,104 +289,7 @@
             </div>
         </section> -->
 
-        <footer class="bg-upwrit-info pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20">
-            <div class="container mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
-
-                <ul class="text-sm font-medium pb-14 sm:pb-20 
-                    grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
-                    
-                    <li class="col-span-2 space-y-5 row-span-2">
-                        <div class="col-span-2 flex flex-1 justify-start items-center gap-12">
-                            <img class="rounded-2xl w-52 h-52 md:w-32 md:h-32"
-                                src="img/comingSoon/logo.jpg"
-                                
-                                alt="brand_logo" 
-                            />
-                            <div class="grid grid-rows-2 gap-4 my-auto">
-                                <div>
-                                    <span class="md:text-5xl text-2xl text-white mt-8" style="font-family: 'Raleway';">
-                                        UpWrit™ Solutions  
-                                    </span>
-                                </div>
-                                <div>
-                                    <span class="text-md text-white" style="font-family: 'Raleway';">
-                                        &copy; Copyright 2021. All Rights Reserved.
-                                    </span>
-                                </div>
-                            </div>
-                        </div> 
-                    </li>
-
-                    <li class="space-y-5 row-span-2 text-white">
-                        <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
-                            Services
-                        </h2>
-                        <ul class="space-y-4">
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Graphic Design
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Content Writing
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Web Creation
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Digital Marketing
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Financial Accounting
-                                </a>
-                            </li>
-                            
-                        </ul> 
-                    </li>
-
-                    <li class="space-y-5 row-span-2 text-white">
-                        <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
-                            Community
-                        </h2>
-                        <ul class="space-y-4">
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="https://www.linkedin.com/company/upwrit-solutions">
-                                LinkedIn
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="https://www.facebook.com/upwrit">
-                                Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="https://www.instagram.com/up_writ/">
-                                Instagram
-                                </a>
-                            </li>                            
-                        </ul> 
-                    </li>
-                </ul>
-            </div>
-            <div class="container text-center text-white text-2xl" style="font-family: 'Caveat', cursive;">
-                <p>a work of UpWrit™ Solutions</p>
-            </div>
-        </footer>
+        <footerview></footerview>
   </div> 
 </template>
 
@@ -502,10 +297,13 @@
 import Footer from '../../comingSoon/Footer.vue';
 
 import Navbar from "../navbar/Navbar.vue";
-import DigitalMarketing from "../services/DigitalMarketing.vue";
-import GraphicDesigning from "../services/GraphicDesigning.vue";
-import WebDesign from "../services/WebDesign.vue";
-import FinancialAccounting from "../services/FinancialAccounting.vue";
+import DigitalMarketing from "../components/DigitalMarketing.vue";
+import GraphicDesigning from "../components/GraphicDesigning.vue";
+import WebDesign from "../components/WebDesign.vue";
+import FinancialAccounting from "../components/FinancialAccounting.vue";
+import Industries from "../components/Industries.vue";
+import Footerview from "../components/Footer.vue";
+import ContactUs from "../components/ContactUs.vue";
 
 // import countdown from "./Countdown.vue";
 
@@ -516,9 +314,11 @@ export default {
         GraphicDesigning,
         WebDesign,
         FinancialAccounting,
+        Industries,
+        Footerview,
+        ContactUs,
     }
 }
-        Footer
 </script>
 
 <style>

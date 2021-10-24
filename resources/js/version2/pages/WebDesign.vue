@@ -18,15 +18,20 @@
                         Build with a renowned, intuitive team of designers, content writers and developers, manage your 
                         brand from one place and grow your online presence.
                     </p>
-                    <div class="flex justify-center flex-wrap gap-6">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScltdehM_hjc0t1PX4mjP6aUMugrWuxOCQb8I3-kGvhvDoeGw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" target="_blank">
-                        <button type="button" class="btn btn-yellow hover:bg-upwrit-info hover:text-white text-black w-40">
-                            Get a Quote 
-                        </button></a>
+                    <div class="flex justify-center  gap-4 w-full mt-16">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScltdehM_hjc0t1PX4mjP6aUMugrWuxOCQb8I3-kGvhvDoeGw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" 
+                            target="_blank" class="flex-nowrap">
+                            <button type="button" class="btn btn-yellow hover:bg-upwrit-info hover:text-white text-black flex-nowrap">
+                                <i class="fas fa-quote-right"></i>&nbsp;
+                                Get a Quotation
+                            </button>
+                        </a>
                         <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black">
+                            <i class="far fa-calendar-check"></i>&nbsp;
                             Schedule an Appointment
                         </button>
                         <button type="button" class="btn btn-black hover:bg-white hover:text-black">
+                            <i class="fas fa-briefcase"></i>&nbsp;
                             Work with us
                         </button>
                     </div>
@@ -49,208 +54,132 @@
         </section>
 
         <!-- Features -->
-        <section class="bg-upwrit-white w-full py-20 mt-20 lg:mt-60">
+        <section class="w-full py-20 mt-20 lg:mt-60">
+            <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
+                <h1 class="text-5xl text-center text-upwrit-blue leading-tight pt-16" style="font-family: 'Caveat', cursive;">
+                    Types of Websites we create
+                </h1>
+            </div>
 
-            <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 max-w-screen-lg mt-16">
+            <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-lg mt-8">
                 
                 <!-- Card #1 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:mb-16 h-auto">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mb-16 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
                             src="img/v2/new/wd/upwrit-blog.webp" 
-                            alt="upwrit_img"
+                            alt="ceo_img"
                         />
-                        <h3 class="mt-10 mb-2 text-upwrit-blue text-2xl text-center">
+                        <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                             Blog Site
                         </h3>
                     </div>
                 </div>
 
                 <!-- Card #2 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:my-8 h-auto">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:my-8 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
                             src="img/v2/new/wd/upwrit-landing.webp" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-10 mb-2 text-upwrit-blue text-2xl text-center">
+                        <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                             Landing Page
                         </h3>
                     </div>
                 </div>
 
                 <!-- Card #3 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:mt-8 h-auto">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mt-8 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
                             src="img/v2/new/wd/upwrit-ecommerce.webp" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-10 mb-2 text-upwrit-blue text-2xl text-center">
+                        <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                             E-commerce Site
                         </h3>
                     </div>
                 </div>
             </div>
 
-            <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 max-w-screen-lg mt-24">
+            <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-lg mt-8">
                 
                 <!-- Card #1 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:mb-16 h-auto">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mb-16 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
                             src="img/v2/new/wd/upwrit-magazine.webp" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-10 mb-2 text-upwrit-blue text-2xl text-center">
+                        <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                             Magazine Site
                         </h3>
                     </div>
                 </div>
 
                 <!-- Card #2 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:my-8 h-auto">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:my-8 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
                             src="img/v2/new/wd/upwrit-portfolio.webp" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-10 mb-2 text-upwrit-blue text-2xl text-center">
+                        <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                             Portfolio Site
                         </h3>
                     </div>
                 </div>
 
                 <!-- Card #3 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:mt-8 h-auto">
+                <div class="group flex flex-col rounded-xl bg-white shadow-sm border border-gray-300 hover:border-yellow-500 hover:bg-white hover:shadow-xl lg:mt-8 h-auto ">
                     <div class="p-6 flex flex-col items-center my-auto">
                         <img 
                             class="w-3/4 h-3/4 sm:w-full sm:h-full"
                             src="img/v2/new/wd/upwrit-home.webp" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-10 mb-2 text-upwrit-blue text-2xl text-center">
+                        <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                             Home Page
                         </h3>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Industries -->
+        <section class="bg-upwrit-white py-20">
+            <industries></industries>
+        </section>
+
+        <!-- Contact -->
+        <section class="py-20">
+            <contact-us></contact-us>
+        </section>
         
-        <footer class="bg-upwrit-info pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20">
-            <div class="container mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
-
-                <ul class="text-sm font-medium pb-14 sm:pb-20 
-                    grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
-                    
-                    <li class="col-span-2 space-y-5 row-span-2">
-                        <div class="col-span-2 flex flex-1 justify-start items-center gap-12">
-                            <img class="rounded-2xl w-52 h-52 md:w-32 md:h-32"
-                                src="img/comingSoon/logo.jpg"
-                                
-                                alt="brand_logo" 
-                            />
-                            <div class="grid grid-rows-2 gap-4 my-auto">
-                                <div>
-                                    <span class="md:text-5xl text-2xl text-white mt-8" style="font-family: 'Raleway';">
-                                        UpWrit™ Solutions  
-                                    </span>
-                                </div>
-                                <div>
-                                    <span class="text-md text-white" style="font-family: 'Raleway';">
-                                        &copy; Copyright 2021. All Rights Reserved.
-                                    </span>
-                                </div>
-                            </div>
-                        </div> 
-                    </li>
-
-                    <li class="space-y-5 row-span-2 text-white">
-                        <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
-                            Services
-                        </h2>
-                        <ul class="space-y-4">
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Graphic Design
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Content Writing
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Web Creation
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Digital Marketing
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="#">
-                                Financial Accounting
-                                </a>
-                            </li>
-                            
-                        </ul> 
-                    </li>
-
-                    <li class="space-y-5 row-span-2 text-white">
-                        <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
-                            Community
-                        </h2>
-                        <ul class="space-y-4">
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="https://www.linkedin.com/company/upwrit-solutions">
-                                LinkedIn
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="https://www.facebook.com/upwrit">
-                                Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-gray-900 transition-colors duration-200" 
-                                href="https://www.instagram.com/up_writ/">
-                                Instagram
-                                </a>
-                            </li>                            
-                        </ul> 
-                    </li>
-                </ul>
-            </div>
-            <div class="container text-center text-white text-2xl" style="font-family: 'Caveat', cursive;">
-                <p>a work of UpWrit™ Solutions</p>
-            </div>
-        </footer>
+        <footerview></footerview>
 </div>
 </template>
 
 <script>
 import Navbar from "../navbar/Navbar.vue";
+import Industries from "../components/Industries.vue";
+import Footerview from "../components/Footer.vue";
+import ContactUs from "../components/ContactUs.vue";
 
 // import countdown from "./Countdown.vue";
 
 export default {
     components: {
         Navbar,
+        Industries,
+        Footerview,
+        ContactUs,
     }
 }
 </script>
