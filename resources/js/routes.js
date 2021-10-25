@@ -5,6 +5,8 @@ import DigitalMarketing from "./version2/pages/DigitalMarketing.vue";
 import Browse from "./landing/browser/Browse";
 import WebDesign from "./version2/pages/WebDesign.vue";
 import GraphicDesign from "./version2/pages/GraphicDesign.vue";
+import FinancialAccounting from "./version2/pages/FinancialAccounting.vue";
+import Careers from "./version2/pages/Careers.vue";
 import ComingAbout from "./comingSoon/About";
 import ComingContact from "./comingSoon/Contact";
 import Home from "./official/home/home.vue";
@@ -39,6 +41,16 @@ const routes = [
         component: GraphicDesign,
         name: "graphic-design"
     },
+    {
+        path: "/financial-accounting",
+        component: FinancialAccounting,
+        name: "financial-accounting"
+    },
+    {
+        path: "/careers",
+        component: Careers,
+        name: "careers"
+    },
     // {
     //     path: "/",
     //     component: Landing,
@@ -49,6 +61,21 @@ const routes = [
 const router = new VueRouter({
     routes, 
     mode: "history",
+    scrollBehavior (to, from, savedposition) {
+        if (savedposition){
+            return savedposition;
+        } else {
+            const position = {};
+            if (to.hash) {
+                position.selector = to.hash;
+                if (document.querySelector(to.hash)) {
+                    return position;
+                }
+            } else {
+                return { x: 0, y: 0 };
+            }
+        }
+    }
 });
 
 export default router;

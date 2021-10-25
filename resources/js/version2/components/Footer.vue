@@ -34,34 +34,24 @@
                     </h2>
                     <ul class="space-y-4">
                         <li>
-                            <a class="hover:text-gray-900 transition-colors duration-200" 
-                            href="#">
-                            Graphic Design
-                            </a>
+                            <router-link to="graphic-design" class="hover:text-gray-900 transition-colors duration-200"> 
+                                Graphic Design
+                            </router-link>
                         </li>
                         <li>
-                            <a class="hover:text-gray-900 transition-colors duration-200" 
-                            href="#">
-                            Content Writing
-                            </a>
+                            <router-link to="web-design-development" class="hover:text-gray-900 transition-colors duration-200">
+                                Web Creation
+                            </router-link>
                         </li>
                         <li>
-                            <a class="hover:text-gray-900 transition-colors duration-200" 
-                            href="#">
-                            Web Creation
-                            </a>
+                            <router-link to="digital-marketing" class="hover:text-gray-900 transition-colors duration-200">
+                                Digital Marketing
+                            </router-link>
                         </li>
                         <li>
-                            <a class="hover:text-gray-900 transition-colors duration-200" 
-                            href="#">
-                            Digital Marketing
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hover:text-gray-900 transition-colors duration-200" 
-                            href="#">
-                            Financial Accounting
-                            </a>
+                            <router-link to="financial-accounting" class="hover:text-gray-900 transition-colors duration-200">
+                                Financial Accounting
+                            </router-link>
                         </li>
                         
                     </ul> 
@@ -95,7 +85,9 @@
             </ul>
         </div>
         <div class="container text-center text-white text-2xl" style="font-family: 'Caveat', cursive;">
-            <p>a work of UpWrit™ Solutions</p>
+            <a href="http://www.upwritsolutions.com">
+                <p>a work of UpWrit</p>
+            </a>
         </div>
     </footer>
 </div>

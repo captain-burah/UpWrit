@@ -45,7 +45,7 @@
                 </div>
 
                 <!-- Image -->
-                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer">
                     <img
                         class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
                         src="img/v2/new/10.svg" 
@@ -56,7 +56,7 @@
 
             <!-- Rounded Rectangle -->
             <div class="hidden md:block overflow-hidden bg-upwrit-yellow rounded-l-full absolute 
-                        h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0 opacity-80">
+                        h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0 opacity-90">
             </div>
         </section>
 
@@ -77,42 +77,58 @@
                 <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 max-w-screen-lg mt-16">
                     
                     <!-- Card #1 -->
-                    <div class="flex flex-col rounded-xl shadow-xl lg:mb-16 h-auto">
+                    <div class="group flex flex-col rounded-xl bg-white shadow-lg border 
+                        transition duration-500 ease-in-out
+                        transform 
+                        hover:-translate-y-1 
+                        hover:scale-105 
+                        hover:border-yellow-500 
+                        hover:bg-white 
+                        hover:shadow-xl 
+                        lg:mb-16 h-auto ">
                         <div class="p-6 flex flex-col items-center my-auto">
                             <img 
                                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
                                 src="img/v2/new/ethos/upwrit-aim.svg" 
                                 alt="ceo_img"
                             />
-                            <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center">
+                            <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                                 Aims
                             </h3>
-                            <p class="text-justify text-upwrit-grey text-md">
-                                UpWrit Solutions aims to produce the next generation of 
+                            <p class="text-justify text-upwrit-grey text-md group-hover:text-gray-600">
+                                UpWrit aims to produce the next generation of 
                                 leaders in Sri Lanka. Our mission is to provide the best 
-                                all-round service delivery environment for our employees & customers in 
+                                all-round service delivery environment for our clients in 
                                 a caring, disciplined and inspiring atmosphere.
                             </p>
                         </div>
                     </div>
 
                     <!-- Card #2 -->
-                    <div class="flex flex-col rounded-xl shadow-xl lg:my-8 h-auto">
+                    <div class="group flex flex-col rounded-xl bg-white shadow-lg border 
+                        transition duration-500 ease-in-out
+                        transform 
+                        hover:-translate-y-1 
+                        hover:scale-105 
+                        hover:border-yellow-500 
+                        hover:bg-white 
+                        hover:shadow-xl 
+                        lg:my-8 h-auto ">
                         <div class="p-6 flex flex-col items-center my-auto">
                             <img 
                                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
                                 src="img/v2/new/ethos/upwrit-ethos.svg" 
                                 alt="ceo_img"
                             />
-                            <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center">
+                            <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                                 Ethos
                             </h3>
-                            <p class="text-justify text-upwrit-grey text-md">
+                            <p class="text-justify text-upwrit-grey text-md group-hover:text-gray-600">
                                 True to the principles of its founders, UpWrit Solutions 
                                 has always endeavoured to instill and nurture qualities such 
                                 as respect, compassion, self-discipline, fairness, dignity, 
-                                equity, honesty and integrity. As a business development environment 
-                                but with clients from many different communities, we believe 
+                                equity, honesty and integrity. As a business developer 
+                                with clients from many different communities, we believe 
                                 that these virtues are valued not only by our clients, but by 
                                 members of all professional bodies. 
                             </p>
@@ -120,23 +136,31 @@
                     </div>
 
                     <!-- Card #3 -->
-                    <div class="flex flex-col rounded-xl shadow-xl lg:mt-8 h-auto">
+                    <div class="group flex flex-col rounded-xl bg-white shadow-lg border 
+                        transition duration-500 ease-in-out
+                        transform 
+                        hover:-translate-y-1 
+                        hover:scale-105 
+                        hover:border-yellow-500 
+                        hover:bg-white 
+                        hover:shadow-xl 
+                        lg:mt-16 h-auto ">
                         <div class="p-6 flex flex-col items-center my-auto">
                             <img 
                                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
                                 src="img/v2/new/ethos/upwrit-mission2.svg" 
                                 alt="ceo_img"
                             />
-                            <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center">
+                            <h3 class="mt-10 mb-2 text-upwrit-blue text-xl text-center group-hover:text-gray-500">
                                 Mission
                             </h3>
-                            <p class="text-justify text-upwrit-grey text-md">
-                                Our users should leave the VLE confident, articulate, 
+                            <p class="text-justify text-upwrit-grey text-md group-hover:text-gray-600">
+                                Our clients should leave UpWrit confident, articulate, 
                                 well-balanced and able to think for themselves. They should be 
                                 comfortable both in operations and in their functionality. 
                                 We are ambitious and determined, yet sensitive to the needs 
-                                of our users, supporting the critical and creative thinkers, 
-                                who are ready to make a positive difference to their country 
+                                of our clients, supporting the critical and creative thinkers, 
+                                who are ready to make a positive difference to our future 
                                 and to the world. 
                             </p>
                         </div>
@@ -146,8 +170,8 @@
             </div>
         </section>
 
-        <!-- Features -->
-        <section class="">
+        <!-- Services -->
+        <section class="" id="services">
 
             <!-- Heading -->
             <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
@@ -188,7 +212,7 @@
         </section>
 
         <!-- Authors -->
-        <section class="py-20 mt-20">
+        <section class="py-20 mt-20" id="about">
             
             <!-- Heading -->
             <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
@@ -201,14 +225,23 @@
             <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
                 
                 <!-- Card #1 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:mb-16">
+                <div class="group flex flex-col rounded-xl bg-white shadow-lg border 
+                    transition duration-500 ease-in-out
+                    transform 
+                    hover:-translate-y-1 
+                    hover:scale-105 
+                    hover:border-yellow-500 
+                    hover:bg-white 
+                    hover:shadow-xl 
+                    lg:mb-16 h-auto ">
+                
                     <div class="p-6 flex flex-col items-center">
                         <img 
                             class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
                             src="img/v2/dp/hanii4.jpg" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
+                        <h3 class="mt-5 mb-2 text-upwrit-blue text-lg group-hover:text-gray-500">
                             Hansaka Chathuranga 
                         </h3>
                         <p class="mb-2 text-upwrit-grey font-light text-center">
@@ -221,14 +254,22 @@
                 </div>
 
                 <!-- Card #2 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:my-8">
+                <div class="group flex flex-col rounded-xl bg-white shadow-lg border 
+                    transition duration-500 ease-in-out
+                    transform 
+                    hover:-translate-y-1 
+                    hover:scale-105 
+                    hover:border-yellow-500 
+                    hover:bg-white 
+                    hover:shadow-xl 
+                    lg:my-8 h-auto ">
                     <div class="p-6 flex flex-col items-center">
                         <img 
                             class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
                             src="img/v2/dp/khaazen2.jpg" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
+                        <h3 class="mt-5 mb-2 text-upwrit-blue text-lg group-hover:text-gray-500">
                             Tuan Burah 
                         </h3>
                         <p class="mb-2 text-upwrit-grey font-light">
@@ -241,14 +282,22 @@
                 </div>
 
                 <!-- Card #3 -->
-                <div class="flex flex-col rounded-xl shadow-xl lg:mt-16">
+                <div class="group flex flex-col rounded-xl bg-white shadow-lg border 
+                    transition duration-500 ease-in-out
+                    transform 
+                    hover:-translate-y-1 
+                    hover:scale-105 
+                    hover:border-yellow-500 
+                    hover:bg-white 
+                    hover:shadow-xl 
+                    lg:mt-16 h-auto ">
                     <div class="p-6 flex flex-col items-center">
                         <img 
                             class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
                             src="img/v2/dp/yosh2.png" 
                             alt="ceo_img"
                         />
-                        <h3 class="mt-5 mb-2 text-upwrit-blue text-lg">
+                        <h3 class="mt-5 mb-2 text-upwrit-blue text-lg group-hover:text-gray-500">
                             Yoshell Delile 
                         </h3>
                         <p class="mb-2 text-upwrit-grey font-light  text-center">
@@ -263,7 +312,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="bg-upwrit-white py-20">
+        <section class="bg-upwrit-white py-20" id="contact">
             <contact-us></contact-us>
         </section>
 
@@ -323,4 +372,26 @@ export default {
 
 <style>
 
+.imageContainer img{
+    animation: kenburns 5s infinite;
+}
+
+@keyframes kenburns {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    95% {
+        transform: scale3d(1.1, 1.1, 1.1) translate3d(-25px, 0px, 0px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    100%{
+        transform: scale3d(1, 1, 1);
+        opacity: 0;
+    }
+
+}
 </style>

@@ -41,7 +41,7 @@
                 </div>
 
                 <!-- Image -->
-                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer">
                     <img
                         class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
                         src="img/v2/new/20.svg" 

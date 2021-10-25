@@ -24,9 +24,12 @@
                 and events, including adherence to new or revised accounting standards and effective management 
                 of the financial reporting processes.
             </p>
-            <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black mt-6">
-                More info
-            </button>
+            <router-link to="financial-accounting">
+                <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black mt-6">
+                    More info
+                </button>
+            </router-link>
+            
         </div>
     </div>
     <!-- Rounded Rectangle -->
