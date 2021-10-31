@@ -33,14 +33,17 @@
                                 Get a Quote 
                             </button>
                         </a>
+
                         <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black">
                             <i class="far fa-calendar-check"></i>&nbsp;
                             Schedule an Appointment
                         </button>
-                        <button type="button" class="btn btn-black hover:bg-white hover:text-black">
-                            <i class="fas fa-briefcase"></i>&nbsp;
-                            Work with us
-                        </button>
+                        <a href="https://forms.gle/FZaMPA9KcCSxLuTFA">
+                            <button type="button" class="btn btn-black hover:bg-white hover:text-black">
+                                <i class="fas fa-briefcase"></i>&nbsp;
+                                Work with us
+                            </button>
+                        </a>
                     </div>
                 </div>
 
@@ -55,8 +58,17 @@
             </div>
 
             <!-- Rounded Rectangle -->
-            <div class="hidden md:block overflow-hidden bg-upwrit-yellow rounded-l-full absolute 
-                        h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0 opacity-90">
+            <div 
+                class="hidden md:block overflow-hidden bg-upwrit-yellow rounded-l-full absolute 
+                    h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0 opacity-90"
+                data-aos="fade-left"
+                data-aos-offset="250"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in"
+                data-aos-mirror="false"
+                data-aos-once="false"
+            >
             </div>
         </section>
 
@@ -64,7 +76,14 @@
         <section class="w-full py-20 mt-20 lg:mt-60">
             <div class="container ">
                 
-                <div class="sm:w-3/4 lg:w-3/4 mx-auto px-12">
+                <div class="sm:w-3/4 lg:w-3/4 mx-auto px-12"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in"
+                    data-aos-mirror="false"
+                    data-aos-once="false">
                     <h1 class="text-5xl text-center text-upwrit-blue leading-tight" style="font-family: 'Caveat', cursive;">
                         OUR PROCESS
                     </h1>
@@ -85,7 +104,14 @@
                         hover:border-yellow-500 
                         hover:bg-white 
                         hover:shadow-xl 
-                        lg:mb-16 h-auto ">
+                        lg:mb-16 h-auto "
+                        data-aos="flip-left"
+                        data-aos-offset="200"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in"
+                        data-aos-mirror="false"
+                        data-aos-once="false">
                         <div class="p-6 flex flex-col items-center my-auto">
                             <img 
                                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
@@ -113,7 +139,14 @@
                         hover:border-yellow-500 
                         hover:bg-white 
                         hover:shadow-xl 
-                        lg:my-8 h-auto ">
+                        lg:my-8 h-auto "
+                        data-aos="flip-left"
+                        data-aos-offset="200"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in"
+                        data-aos-mirror="false"
+                        data-aos-once="false">
                         <div class="p-6 flex flex-col items-center my-auto">
                             <img 
                                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
@@ -144,7 +177,14 @@
                         hover:border-yellow-500 
                         hover:bg-white 
                         hover:shadow-xl 
-                        lg:mt-16 h-auto ">
+                        lg:mt-16 h-auto "
+                        data-aos="flip-left"
+                        data-aos-offset="200"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in"
+                        data-aos-mirror="false"
+                        data-aos-once="false">
                         <div class="p-6 flex flex-col items-center my-auto">
                             <img 
                                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
@@ -171,10 +211,17 @@
         </section>
 
         <!-- Services -->
-        <section class="" id="services">
+        <section class="grid gap-y-20 grid-cols-1" id="services">
 
             <!-- Heading -->
-            <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
+            <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in"
+                data-aos-mirror="false"
+                data-aos-once="false">
                 <h1 class="text-5xl text-center text-upwrit-blue leading-tight pt-16" style="font-family: 'Caveat', cursive;">
                     WHAT WE PROVIDE
                 </h1>
@@ -184,23 +231,29 @@
                 </p>
             </div>
 
+            <!-- Feature #0  Ecommerce -->
+            <div class="relative mt-20 lg:mt-24 "
+                >
+                <ecommerce></ecommerce>
+            </div>
+
             <!-- Feature #1  Graphic -->
-            <div class="relative mt-20 lg:mt-24  my-60">
+            <div class="relative mt-20 lg:mt-52 ">
                 <digital-marketing></digital-marketing>
             </div>
 
             <!-- Feature #2 WEB -->
-            <div class="relative mt-20 lg:mt-52  my-60">
+            <div class="relative mt-20 lg:mt-52 ">
                 <web-design></web-design>
             </div>
 
             <!-- Feature #3 Marketing -->
-            <div class="relative mt-20 lg:mt-52 my-60">
+            <div class="relative mt-20 lg:mt-52">
                 <graphic-designing></graphic-designing>
             </div>
 
             <!-- Feature #4 Financial Accounting -->
-            <div class="relative mt-20 lg:mt-52  my-60">
+            <div class="relative mt-20 lg:mt-52 mb-60">
                 <financial-accounting></financial-accounting>
             </div>
 
@@ -343,7 +396,6 @@
 </template>
 
 <script>
-import Footer from '../../comingSoon/Footer.vue';
 
 import Navbar from "../navbar/Navbar.vue";
 import DigitalMarketing from "../components/DigitalMarketing.vue";
@@ -353,6 +405,7 @@ import FinancialAccounting from "../components/FinancialAccounting.vue";
 import Industries from "../components/Industries.vue";
 import Footerview from "../components/Footer.vue";
 import ContactUs from "../components/ContactUs.vue";
+import Ecommerce from "../components/Ecommerce.vue";
 
 // import countdown from "./Countdown.vue";
 
@@ -366,6 +419,7 @@ export default {
         Industries,
         Footerview,
         ContactUs,
+        Ecommerce,
     }
 }
 </script>

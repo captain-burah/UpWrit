@@ -4,9 +4,9 @@
         <div class="container mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
 
             <ul class="text-sm font-medium pb-14 sm:pb-20 
-                grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
+                grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10">
                 
-                <li class="col-span-2 space-y-5 row-span-2">
+                <li class="space-y-5 row-span-2">
                     <div class="col-span-2 flex flex-1 justify-start gap-12">
                         <img class="rounded-2xl w-40 h-40 md:w-32 md:h-32 my-0"
                             src="img/comingSoon/19.jpg"
@@ -28,19 +28,19 @@
                     </div> 
                 </li>
 
-                <li class="space-y-5 row-span-2 text-white">
+                <li class="ml-16 md:ml-1 lg:ml-16 space-y-5 row-span-2 text-white">
                     <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
-                        Services
+                        Products
                     </h2>
-                    <ul class="space-y-4">
+                    <ul class=" space-y-4">
                         <li>
-                            <router-link to="graphic-design" class="hover:text-gray-900 transition-colors duration-200"> 
-                                Graphic Design
+                            <router-link to="ecommerce" class="hover:text-gray-900 transition-colors duration-200"> 
+                                E-commerce
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="web-design-development" class="hover:text-gray-900 transition-colors duration-200">
-                                Web Creation
+                            <router-link to="graphic-design" class="hover:text-gray-900 transition-colors duration-200"> 
+                                Graphic Design
                             </router-link>
                         </li>
                         <li>
@@ -53,11 +53,48 @@
                                 Financial Accounting
                             </router-link>
                         </li>
-                        
+                        <li>
+                            <router-link to="web-design-development" class="hover:text-gray-900 transition-colors duration-200">
+                                Customized Web Designing
+                            </router-link>
+                        </li>
                     </ul> 
                 </li>
 
-                <li class="space-y-5 row-span-2 text-white">
+                <li class="ml-16 md:ml-1 space-y-5 row-span-2 text-white">
+                    <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
+                        Business
+                    </h2>
+                    <ul class="space-y-4">
+                        <li>
+                            <router-link to="ecommerce" class="hover:text-gray-900 transition-colors duration-200"> 
+                                Careers
+                            </router-link>
+                        </li>
+                        <li>
+                            <router-link to="graphic-design" class="hover:text-gray-900 transition-colors duration-200"> 
+                                Who we are
+                            </router-link>
+                        </li>
+                        <li>
+                            <router-link to="digital-marketing" class="hover:text-gray-900 transition-colors duration-200">
+                                Payment Methods
+                            </router-link>
+                        </li>
+                        <li>
+                            <router-link to="financial-accounting" class="hover:text-gray-900 transition-colors duration-200">
+                                Terms & Conditions
+                            </router-link>
+                        </li>
+                        <li>
+                            <router-link to="web-design-development" class="hover:text-gray-900 transition-colors duration-200">
+                                Privacy Policy
+                            </router-link>
+                        </li>
+                    </ul> 
+                </li>
+
+                <li class="ml-16 md:ml-1 space-y-5 row-span-2 text-white">
                     <h2 class="text-xl font-semibold tracking-wide text-white uppercase">
                         Community
                     </h2>
@@ -79,7 +116,13 @@
                             href="https://www.instagram.com/up_writ/">
                             Instagram
                             </a>
-                        </li>                            
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-900 transition-colors duration-200" 
+                            href="">
+                            Call us on (94) 76 76 9 8844
+                            </a>
+                        </li>                              
                     </ul> 
                 </li>
             </ul>

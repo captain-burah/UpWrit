@@ -11,7 +11,7 @@
                 <!-- Content -->
                 <div class="flex flex-1 flex-col items-center lg:items-start">
                     <h2 class="text-upwrit-blue text-4xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">
-                        Web Design & Development
+                        Customized Web Designing
                     </h2>
                     <p class="text-upwrit-grey text-2xl text-center lg:text-left mb-6" style="font-family: 'Zen Kurenaido', sans-serif;">
                         Elevate your business with a trusted website that your customers will love.
@@ -41,7 +41,7 @@
                 <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer">
                     <img
                         class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
-                        src="img/v2/new/17.svg" 
+                        src="img/v2/new/23.svg" 
                         alt="upwrit-digital-marketing"
                     />
                 </div>

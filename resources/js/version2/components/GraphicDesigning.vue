@@ -7,11 +7,25 @@
             <img
                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
                 src="img/v2/new/20.svg" 
-                alt="feature1_image">
+                alt="feature1_image"
+                data-aos="fade-right"
+                data-aos-offset="250"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in"
+                data-aos-mirror="false"
+                data-aos-once="false">
         </div>
 
         <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start px-12">
+        <div class="flex flex-1 flex-col items-center lg:items-start px-12"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="false">
             <h1 class="text-4xl text-upwrit-blue">
                 Graphic Design
             </h1>
@@ -51,6 +65,13 @@
             w-2/4 
             -bottom-24
             -left-0"
+            data-aos="fade-right"
+            data-aos-offset="250"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="false"
+            data-aos-once="false"
     >
     </div>
 </div>

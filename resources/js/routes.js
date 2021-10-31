@@ -11,6 +11,12 @@ import ComingAbout from "./comingSoon/About";
 import ComingContact from "./comingSoon/Contact";
 import Home from "./official/home/home.vue";
 import HomeV2 from "./version2/home/Home.vue";
+import Ecommerce from "./version2/pages/Ecommerce.vue";
+import Store from "./version2/pages/ecommerce/Store.vue";
+import Category from "./version2/pages/ecommerce/Category.vue";
+import Order from "./version2/pages/ecommerce/Order.vue";
+import Product from "./version2/pages/ecommerce/Product.vue";
+import ShoppingCart from "./version2/pages/ecommerce/ShoppingCart.vue";
 
 
 
@@ -25,6 +31,36 @@ const routes = [
         path: "/",
         component: HomeV2,
         name: "home",
+    },
+    {
+        path: "/ecommerce",
+        component: Ecommerce,
+        name: "ecommerce",
+    },
+    {
+        path: '/storefront-pages', 
+        component: Store,
+        name: "storefront-pages"
+    },
+    {
+        path: '/category-pages', 
+        component: Category,
+        name: "category-pages"
+    },
+    {
+        path: '/shopping-cart-pages', 
+        component: ShoppingCart,
+        name: "shopping-cart-pages"
+    },
+    {
+        path: '/product-pages', 
+        component: Product,
+        name: "product-pages"
+    },
+    {
+        path: '/order-pages', 
+        component: Order,
+        name: "order-pages"
     },
     {
         path: "/digital-marketing",

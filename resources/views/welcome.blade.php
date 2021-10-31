@@ -18,6 +18,7 @@
         
         <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.carousel.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.theme.default.min.css') }}">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://kit.fontawesome.com/11e38db15a.js" crossorigin="anonymous"></script>
         
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -34,5 +35,9 @@
         
         <script src="{{ asset('owlcarousel/jquery.min.js') }}"></script>
         <script src="{{ asset('owlcarousel/owl.carousel.min.js') }}"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
