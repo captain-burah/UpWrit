@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full bg-white">
 
         <div v-if="loading">
             <section class="absolute flex h-screen w-full bg-upwrit-white bg-opacity-95 z-50">
@@ -33,16 +33,16 @@
 
             <!-- Header -->
             <header class="container">
-                <navbar></navbar>
-                <nav></nav>
+                
+                <!-- <navbar></navbar> -->
             </header>
 
             <!-- Hero -->
             <section class=" relative">
-                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12">
                     <!-- Content -->
-                    <div class="flex flex-1 flex-col items-center lg:items-start">
-                        <h2 class="text-upwrit-blue text-4xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6 animate-pulse">
+                    <div class="flex flex-1 flex-col items-center lg:items-start mt-2 lg:mt-28">
+                        <h2 class="text-gray-600 text-4xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6 animate-pulse font-bold">
                             Your Premium Tailor in Business Solutions
                         </h2>
                         <p class="text-upwrit-grey text-2xl text-center lg:text-left mb-6" style="font-family: 'Zen Kurenaido', sans-serif;">
@@ -73,7 +73,7 @@
                     </div>
 
                     <!-- Image -->
-                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer">
+                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer mt-14 lg:mt-32">
                         <img
                             class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
                             src="img/v2/new/10.svg" 
@@ -96,14 +96,14 @@
                 <!-- Rounded Rectangle -->
                 <div 
                     class="hidden md:block overflow-hidden bg-upwrit-yellow rounded-l-full absolute 
-                        h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-0 opacity-90"
-                    data-aos="fade-left"
-                    data-aos-offset="250"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in"
-                    data-aos-mirror="false"
-                    data-aos-once="false"
+                        h-80 w-2/4 top-80 right-0 lg:-bottom-28 lg:-right-0 opacity-90"
+                        data-aos="fade-left"
+                        data-aos-offset="250"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in"
+                        data-aos-mirror="false"
+                        data-aos-once="false"
                 >
                 </div>
             </section>
@@ -441,7 +441,6 @@ import Industries from "../components/Industries.vue";
 import Footerview from "../components/Footer.vue";
 import ContactUs from "../components/ContactUs.vue";
 import Ecommerce from "../components/Ecommerce.vue";
-import Nav from "../components/Nav.vue";
 
 // import countdown from "./Countdown.vue";
 
@@ -456,7 +455,6 @@ export default {
         Footerview,
         ContactUs,
         Ecommerce,
-        Nav,
     },
     data() {
         return {
@@ -504,5 +502,4 @@ export default {
     }
 
 }
-
 </style>

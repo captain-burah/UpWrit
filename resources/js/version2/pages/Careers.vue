@@ -15,10 +15,6 @@
 
         
         <div v-else>
-            <!-- Header -->
-            <header class="container">
-                <navbar></navbar>
-            </header>
             <!-- Hero -->
             <section class=" relative">
                 <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">

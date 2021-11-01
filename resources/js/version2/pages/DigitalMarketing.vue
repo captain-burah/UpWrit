@@ -14,10 +14,6 @@
 
     
     <div v-else>
-        <!-- Header -->
-        <header class="container">
-            <navbar></navbar>
-        </header>
 
         <!-- Hero -->
         <section class=" relative">

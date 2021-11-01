@@ -12,10 +12,6 @@
         </div>
 
         <div v-else>        
-            <!-- Header -->
-            <header class="container">
-                <navbar></navbar>
-            </header>
 
             <!-- Hero -->
             <section class="container relative mx-auto py-20">
