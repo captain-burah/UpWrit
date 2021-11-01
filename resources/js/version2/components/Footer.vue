@@ -77,18 +77,19 @@
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="intellectual-property" class="hover:text-gray-900 transition-colors duration-200"> 
-                                Intellectual Property Law
+                            <router-link to="privacy-policy" class="hover:text-gray-900 transition-colors duration-200">
+                                Privacy Policy
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="financial-accounting" class="hover:text-gray-900 transition-colors duration-200">
+                            <router-link to="terms-conditions" class="hover:text-gray-900 transition-colors duration-200">
                                 Terms & Conditions
                             </router-link>
                         </li>
+                        
                         <li>
-                            <router-link to="web-design-development" class="hover:text-gray-900 transition-colors duration-200">
-                                Privacy Policy
+                            <router-link to="intellectual-property" class="hover:text-gray-900 transition-colors duration-200"> 
+                                Intellectual Property Law
                             </router-link>
                         </li>
                     </ul> 

@@ -1,6 +1,20 @@
 <template>
 <div class="w-full">
-     <!-- Header -->
+
+    <div v-if="loading">
+        <section class="absolute flex h-screen w-full bg-upwrit-white">
+            <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
+                <div style="border-top-color:transparent;"
+                    class="animate-spin rounded-full h-40 w-40
+                        border-b-8 border-r-4 border-l-4 border-dotted border-upwrit-info"
+                ></div>
+            </div>
+        </section>
+    </div>
+
+    
+    <div v-else>
+        <!-- Header -->
         <header class="container">
             <navbar></navbar>
         </header>
@@ -152,7 +166,8 @@
             <industries></industries>
         </section>
         
-        <footerview></footerview>       
+        <footerview></footerview>
+    </div>
 </div>
 </template>
 
@@ -167,6 +182,15 @@ export default {
         Navbar,
         Industries,
         Footerview,
-    }
+    },
+    data() {
+        return {
+            loading: true,
+        };
+    },
+    created() {
+        setTimeout(() => (this.loading = false), 1500);
+
+    },
 }
 </script>

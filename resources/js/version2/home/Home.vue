@@ -1,21 +1,40 @@
 <template>
   <div class="w-full">
 
-      <div v-if="loading">
-            <section class="absolute flex h-screen w-full bg-upwrit-white">
+        <div v-if="loading">
+            <section class="absolute flex h-screen w-full bg-upwrit-white bg-opacity-95 z-50">
                 <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
                     <div style="border-top-color:transparent;"
                         class="animate-spin rounded-full h-40 w-40
-                            border-b-8 border-r-4 border-l-4 border-dotted border-purple-300"
+                            border-b-8 border-r-4 border-l-4 border-dotted border-upwrit-info"
                     ></div>
                 </div>
             </section>
         </div>
 
-        <div v-else>
+        <div v-else-if="welcome">
+            <section class="absolute flex h-screen w-full bg-upwrit-white bg-opacity-95 z-50">
+                <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
+                    <h1 class="text-9xl text-upwrit-info " 
+                        data-aos="zoom-in"
+                        data-aos-offset="200"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in"
+                        data-aos-mirror="false"
+                        data-aos-once="false"
+                        style="font-family: 'Zen Kurenaido', sans-serif;"
+                    >
+                        Welcome
+                    </h1>
+                </div>
+            </section>
+        </div>
+
             <!-- Header -->
             <header class="container">
                 <navbar></navbar>
+                <nav></nav>
             </header>
 
             <!-- Hero -->
@@ -407,7 +426,6 @@
                 </div>
             </div>
         </section> -->
-        </div>
         <footerview></footerview>
   </div> 
 </template>
@@ -423,6 +441,7 @@ import Industries from "../components/Industries.vue";
 import Footerview from "../components/Footer.vue";
 import ContactUs from "../components/ContactUs.vue";
 import Ecommerce from "../components/Ecommerce.vue";
+import Nav from "../components/Nav.vue";
 
 // import countdown from "./Countdown.vue";
 
@@ -437,15 +456,26 @@ export default {
         Footerview,
         ContactUs,
         Ecommerce,
+        Nav,
     },
     data() {
         return {
             loading: true,
+            welcome: false,
         };
     },
     created() {
-        setTimeout(() => (this.loading = false), 1500);
+        setTimeout(() => (
+            this.loading = false
+        ), 1500);
 
+        setTimeout(() => (
+            this.welcome = true
+        ), 1500);
+        
+        setTimeout(() => (
+            this.welcome = false
+        ), 4500);
     },
 }
 </script>

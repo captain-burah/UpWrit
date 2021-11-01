@@ -18,6 +18,8 @@ import Order from "./version2/pages/ecommerce/Order.vue";
 import Product from "./version2/pages/ecommerce/Product.vue";
 import ShoppingCart from "./version2/pages/ecommerce/ShoppingCart.vue";
 import IntellectualProperty from "./version2/pages/Law.vue";
+import TermsAndConditions from "./version2/pages/Terms&Conditions.vue";
+import PrivacyPolicy from "./version2/pages/PrivacyPolicy.vue";
 
 
 
@@ -28,6 +30,16 @@ const routes = [
     //     component: ComingLanding,
     //     name: "cominglanding",
     // },
+    {
+        path: "/privacy-policy",
+        component: PrivacyPolicy,
+        name: "privacy-policy",
+    },
+    {
+        path: "/terms-conditions",
+        component: TermsAndConditions,
+        name: "terms-conditions",
+    },
     {
         path: "/",
         component: HomeV2,

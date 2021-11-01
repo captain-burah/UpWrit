@@ -7,7 +7,7 @@
                 <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
                     <div style="border-top-color:transparent;"
                         class="animate-spin rounded-full h-40 w-40
-                            border-b-8 border-r-4 border-l-4 border-dotted border-purple-300"
+                            border-b-8 border-r-4 border-l-4 border-dotted border-upwrit-info"
                     ></div>
                 </div>
             </section>
