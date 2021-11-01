@@ -72,13 +72,13 @@
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="graphic-design" class="hover:text-gray-900 transition-colors duration-200"> 
+                            <router-link :to="{name:'home', hash: '#about' }" class="hover:text-gray-900 transition-colors duration-200"> 
                                 Who we are
                             </router-link>
                         </li>
                         <li>
-                            <router-link to="digital-marketing" class="hover:text-gray-900 transition-colors duration-200">
-                                Payment Methods
+                            <router-link to="intellectual-property" class="hover:text-gray-900 transition-colors duration-200"> 
+                                Intellectual Property Law
                             </router-link>
                         </li>
                         <li>

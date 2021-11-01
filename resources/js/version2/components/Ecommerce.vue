@@ -24,7 +24,7 @@
             data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in"
-            data-aos-mirror="true"
+            data-aos-mirror="false"
             data-aos-once="false">
             <h1 class="text-4xl text-upwrit-blue text-center lg:text-right sm:w-3/4 lg:w-full">
                 E-commerce
@@ -65,7 +65,7 @@
         data-aos-delay="100"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
+        data-aos-mirror="false"
         data-aos-once="false"
     >
     </div>

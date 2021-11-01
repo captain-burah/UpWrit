@@ -17,6 +17,7 @@ import Category from "./version2/pages/ecommerce/Category.vue";
 import Order from "./version2/pages/ecommerce/Order.vue";
 import Product from "./version2/pages/ecommerce/Product.vue";
 import ShoppingCart from "./version2/pages/ecommerce/ShoppingCart.vue";
+import IntellectualProperty from "./version2/pages/Law.vue";
 
 
 
@@ -86,6 +87,11 @@ const routes = [
         path: "/careers",
         component: Careers,
         name: "careers"
+    },
+    {
+        path: "/intellectual-property",
+        component: IntellectualProperty,
+        name: "intellectual-property"
     },
     // {
     //     path: "/",
