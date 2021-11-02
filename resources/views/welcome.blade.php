@@ -12,14 +12,14 @@
         <title>UpWrit Solutions</title>
 
         <!-- Fonts -->
-        <link rel="preconnect" href="{{ ('https://fonts.googleapis.com') }}">
-        <link rel="preconnect" href="{{ ('https://fonts.gstatic.com') }}" crossorigin>
-        <link href="{{ ('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap') }}" rel="stylesheet">
-        <link href="{{ ('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap') }}" rel="stylesheet"> 
-        <link href="{{ ('https://fonts.googleapis.com/css2?family=Caveat&display=swap') }}" rel="stylesheet"> 
-        <link href="{{ ('https://fonts.googleapis.com/css?family=Nunito:200,600') }}" rel="stylesheet">
-        <link href="{{ ('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap') }}" rel="stylesheet"> 
-        <link href="{{ ('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap') }}" rel="stylesheet">
+        <link rel="preconnect" href="{{ ('//fonts.googleapis.com') }}">
+        <link rel="preconnect" href="{{ ('//fonts.gstatic.com') }}" crossorigin>
+        <link href="{{ ('//fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap') }}" rel="stylesheet">
+        <link href="{{ ('//fonts.googleapis.com/css2?family=Dancing+Script&display=swap') }}" rel="stylesheet"> 
+        <link href="{{ ('//fonts.googleapis.com/css2?family=Caveat&display=swap') }}" rel="stylesheet"> 
+        <link href="{{ ('//fonts.googleapis.com/css?family=Nunito:200,600') }}" rel="stylesheet">
+        <link href="{{ ('//fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap') }}" rel="stylesheet"> 
+        <link href="{{ ('//fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap') }}" rel="stylesheet">
         
         <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.carousel.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.theme.default.min.css') }}">
