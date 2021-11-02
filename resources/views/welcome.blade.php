@@ -23,10 +23,10 @@
         
         <link rel="stylesheet" type="text/css" href="owlcarousel/assets/owl.carousel.min.css">
         <link rel="stylesheet" type="text/css" href="owlcarousel/assets/owl.theme.default.min.css">
-        <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" />
-        
+        <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet">
-
+        
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <style>
            
         </style>
@@ -38,9 +38,7 @@
         <script src="js/app.js" defer></script>
         <script src="owlcarousel/jquery.min.js"></script>
         <script src="owlcarousel/owl.carousel.min.js"></script>
-        <script src="//use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
-        <script src="//kit.fontawesome.com/11e38db15a.js'" ></script>
-        <script src="//unpkg.com/aos@next/dist/aos.js'"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();
         </script>

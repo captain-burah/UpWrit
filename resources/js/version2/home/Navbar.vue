@@ -1,7 +1,7 @@
 <template>
 <div id="navigation">
     <nav class="md:fixed relative w-screen flex flex-wrap items-center justify-between py-4
-            backdrop-filter backdrop-sepia backdrop-blur-md backdrop-contrast-200 mb-0 z-10 shadow-lg mx-0">
+            backdrop-filter backdrop-sepia-0 backdrop-blur-md backdrop-contrast-200 mb-0 z-10 shadow-lg mx-0">
         <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div class="w-full relative flex justify-between lg:w-auto px-4 md:static md:block 
                     md:justify-start items-center">
