@@ -12,20 +12,20 @@
         <title>UpWrit Solutions</title>
 
         <!-- Fonts -->
-        <link rel="preconnect" href="{{ ('//fonts.googleapis.com') }}">
-        <link rel="preconnect" href="{{ ('//fonts.gstatic.com') }}" crossorigin>
-        <link href="{{ ('//fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap') }}" rel="stylesheet">
-        <link href="{{ ('//fonts.googleapis.com/css2?family=Dancing+Script&display=swap') }}" rel="stylesheet"> 
-        <link href="{{ ('//fonts.googleapis.com/css2?family=Caveat&display=swap') }}" rel="stylesheet"> 
-        <link href="{{ ('//fonts.googleapis.com/css?family=Nunito:200,600') }}" rel="stylesheet">
-        <link href="{{ ('//fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap') }}" rel="stylesheet"> 
-        <link href="{{ ('//fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap') }}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.carousel.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('owlcarousel/assets/owl.theme.default.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ ('https://unpkg.com/aos@next/dist/aos.css') }}" />
+        <link rel="stylesheet" type="text/css" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="owlcarousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" />
         
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="css/app.css" rel="stylesheet">
 
         <style>
            
@@ -35,12 +35,12 @@
         <div id="app" class="">
             <index></index>
         </div>
-        <script src="{{ asset('js/app.js') }}" defer></script>
-        <script src="{{ asset('owlcarousel/jquery.min.js') }}"></script>
-        <script src="{{ asset('owlcarousel/owl.carousel.min.js') }}"></script>
-        <script src="{{ ('https://use.fontawesome.com/releases/v5.15.3/js/all.js') }}" crossorigin="anonymous"></script>
-        <script src="{{ ('https://kit.fontawesome.com/11e38db15a.js') }}" crossorigin="anonymous"></script>
-        <script src="{{ ('https://unpkg.com/aos@next/dist/aos.js') }}"></script>
+        <script src="js/app.js" defer></script>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/11e38db15a.js'" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js'"></script>
         <script>
           AOS.init();
         </script>
