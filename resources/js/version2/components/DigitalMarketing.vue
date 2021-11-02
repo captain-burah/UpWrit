@@ -8,24 +8,12 @@
                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
                 src="img/v2/new/16.svg" 
                 alt="feature1_image"
-                data-aos="fade-right"
-                data-aos-offset="250"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in"
-                data-aos-mirror="false"
-                data-aos-once="false">
+                data-aos="fade-right">
         </div>
 
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start px-12"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false">
+            data-aos="fade-left">
             <h1 class="text-4xl text-upwrit-blue">
                 Digital Marketing
             </h1>
@@ -64,12 +52,6 @@
             -bottom-36
             -left-0"
             data-aos="fade-right"
-            data-aos-offset="250"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="false"
-            data-aos-once="false"
     >
     </div>
 </div>

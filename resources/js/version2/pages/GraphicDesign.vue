@@ -16,7 +16,7 @@
 
             <!-- Hero -->
             <section class=" relative">
-                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-60">
                     <!-- Content -->
                     <div class="flex flex-1 flex-col items-center lg:items-start">
                         <h2 class="text-upwrit-blue text-4xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">

@@ -15,7 +15,7 @@
         <div v-else-if="welcome">
             <section class="absolute flex h-screen w-full bg-upwrit-white bg-opacity-95 z-50">
                 <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
-                    <h1 class="text-9xl text-upwrit-info " 
+                    <h1 class=" text-5xl md:text-9xl text-upwrit-info " 
                         data-aos="zoom-in"
                         data-aos-offset="200"
                         data-aos-delay="100"
@@ -23,7 +23,7 @@
                         data-aos-easing="ease-in"
                         data-aos-mirror="false"
                         data-aos-once="false"
-                        style="font-family: 'Zen Kurenaido', sans-serif;"
+                        style="font-family: 'Quicksand', sans-serif;"
                     >
                         Welcome
                     </h1>
@@ -39,9 +39,9 @@
 
             <!-- Hero -->
             <section class=" relative">
-                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12">
+                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 my-auto">
                     <!-- Content -->
-                    <div class="flex flex-1 flex-col items-center lg:items-start mt-2 lg:mt-28">
+                    <div class="flex flex-1 flex-col items-center lg:items-start mt-2 lg:mt-60">
                         <h2 class="text-gray-600 text-4xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6 animate-pulse font-bold">
                             Your Premium Tailor in Business Solutions
                         </h2>
@@ -73,7 +73,7 @@
                     </div>
 
                     <!-- Image -->
-                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer mt-14 lg:mt-32">
+                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer mt-14 lg:mt-36">
                         <img
                             class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
                             src="img/v2/new/10.svg" 
@@ -95,31 +95,19 @@
 
                 <!-- Rounded Rectangle -->
                 <div 
-                    class="hidden md:block overflow-hidden bg-upwrit-yellow rounded-l-full absolute 
-                        h-80 w-2/4 top-80 right-0 lg:-bottom-28 lg:-right-0 opacity-90"
+                    class="hidden md:block overflow-hidden bg-gray-200 rounded-l-full absolute 
+                        h-60 w-2/4 top-80 right-0 lg:-bottom-28 lg:-right-0 opacity-90"
                         data-aos="fade-left"
-                        data-aos-offset="250"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in"
-                        data-aos-mirror="false"
-                        data-aos-once="false"
                 >
                 </div>
             </section>
 
             <!-- Intro -->
-            <section class="w-full py-20 mt-20 lg:mt-60" id="process">
+            <section class="w-full py-20 mt-20 lg:mt-40" id="process">
                 <div class="container ">
                     
                     <div class="sm:w-3/4 lg:w-3/4 mx-auto px-12"
-                        data-aos="fade-up"
-                        data-aos-offset="200"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in"
-                        data-aos-mirror="false"
-                        data-aos-once="false">
+                        data-aos="fade-up">
                         <h1 class="text-5xl text-center text-upwrit-blue leading-tight" style="font-family: 'Caveat', cursive;">
                             OUR PROCESS
                         </h1>
@@ -141,13 +129,7 @@
                             hover:bg-white 
                             hover:shadow-xl 
                             lg:mb-16 h-auto "
-                            data-aos="flip-left"
-                            data-aos-offset="200"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in"
-                            data-aos-mirror="false"
-                            data-aos-once="false">
+                            data-aos="flip-left">
                             <div class="p-6 flex flex-col items-center my-auto">
                                 <img 
                                     class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
@@ -176,13 +158,7 @@
                             hover:bg-white 
                             hover:shadow-xl 
                             lg:my-8 h-auto "
-                            data-aos="flip-left"
-                            data-aos-offset="200"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in"
-                            data-aos-mirror="false"
-                            data-aos-once="false">
+                            data-aos="flip-left">
                             <div class="p-6 flex flex-col items-center my-auto">
                                 <img 
                                     class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
@@ -214,13 +190,7 @@
                             hover:bg-white 
                             hover:shadow-xl 
                             lg:mt-16 h-auto "
-                            data-aos="flip-left"
-                            data-aos-offset="200"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in"
-                            data-aos-mirror="false"
-                            data-aos-once="false">
+                            data-aos="flip-left">
                             <div class="p-6 flex flex-col items-center my-auto">
                                 <img 
                                     class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"
@@ -251,13 +221,7 @@
 
                 <!-- Heading -->
                 <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12"
-                    data-aos="fade-up"
-                    data-aos-offset="200"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in"
-                    data-aos-mirror="false"
-                    data-aos-once="false">
+                    data-aos="fade-up">
                     <h1 class="text-5xl text-center text-upwrit-blue leading-tight pt-16" style="font-family: 'Caveat', cursive;">
                         WHAT WE PROVIDE
                     </h1>
@@ -322,7 +286,9 @@
                         hover:border-yellow-500 
                         hover:bg-white 
                         hover:shadow-xl 
-                        lg:mb-16 h-auto ">
+                        lg:mb-16 h-auto "
+                        data-aos="flip-left"
+                        data-aos-anchor-placement="center-bottom">
                     
                         <div class="p-6 flex flex-col items-center">
                             <img 
@@ -351,7 +317,10 @@
                         hover:border-yellow-500 
                         hover:bg-white 
                         hover:shadow-xl 
-                        lg:my-8 h-auto ">
+                        lg:my-8 h-auto "
+                        data-aos="flip-down"
+                        data-aos-anchor-placement="center-bottom"
+                    >
                         <div class="p-6 flex flex-col items-center">
                             <img 
                                 class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"
@@ -365,7 +334,7 @@
                                 Founder & Chief Executive Officer
                             </p>
                             <p class="mb-2 text-upwrit-grey font-light text-center">
-                                Reading M.Sc. IT, Pg.D. IT, <br> AMBCS- UK
+                                Reading M.Sc. IT, Pg.D. IT, <br> BCS - UK
                             </p>
                         </div>
                     </div>
@@ -379,7 +348,11 @@
                         hover:border-yellow-500 
                         hover:bg-white 
                         hover:shadow-xl 
-                        lg:mt-16 h-auto ">
+                        lg:mt-16 h-auto "
+                        data-aos="flip-right"
+                        data-aos-delay="100"
+                        data-aos-anchor-placement="center-bottom"
+                    >
                         <div class="p-6 flex flex-col items-center">
                             <img 
                                 class="rounded-full w-1/2 h-3/4 sm:w-1/2 sm:h-3/4"

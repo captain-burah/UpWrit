@@ -8,24 +8,12 @@
                 class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4"  
                 src="img/v2/new/23.svg" 
                 alt="web-design-image"
-                data-aos="fade-left"
-                data-aos-offset="250"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in"
-                data-aos-mirror="false"
-                data-aos-once="false">
+                data-aos="fade-left">
         </div>
 
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-end px-12"
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in"
-            data-aos-mirror="false"
-            data-aos-once="false">
+            data-aos="fade-right">
             <h1 class="text-4xl text-upwrit-blue text-center lg:text-right sm:w-3/4 lg:w-full">
                 Customized Web Designing
             </h1>
@@ -61,12 +49,6 @@
             -bottom-24
             -right-0"
             data-aos="fade-left"
-            data-aos-offset="250"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="false"
-            data-aos-once="false"
     >
     </div>
 </div>

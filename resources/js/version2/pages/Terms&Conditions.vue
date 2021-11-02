@@ -14,7 +14,7 @@
         <div v-else>
 
             <!-- Hero -->
-            <section class="container relative mx-auto py-20">
+            <section class="container relative mx-auto py-20 mt-20">
                 <div class="flex flex-col mb-8">
                     <h1 class="order-1 text-gray-900 text-3xl font-extrabold tracking-tight mt-2">
                         Our Terms & Conditions
