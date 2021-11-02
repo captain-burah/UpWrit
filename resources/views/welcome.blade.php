@@ -38,9 +38,9 @@
         <script src="js/app.js" defer></script>
         <script src="owlcarousel/jquery.min.js"></script>
         <script src="owlcarousel/owl.carousel.min.js"></script>
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/11e38db15a.js'" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js'"></script>
+        <script src="//use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+        <script src="//kit.fontawesome.com/11e38db15a.js'" ></script>
+        <script src="//unpkg.com/aos@next/dist/aos.js'"></script>
         <script>
           AOS.init();
         </script>

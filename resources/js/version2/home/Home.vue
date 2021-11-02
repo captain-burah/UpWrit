@@ -270,7 +270,7 @@
                 <!-- Heading -->
                 <div class="sm:w-3/4 lg:w-5/12 mx-auto px-12">
                     <h1 class="text-5xl text-center text-upwrit-blue">
-                        Who are <sapn class="bg-upwrit-yellow text-blue" style="font-family: Raleway;"> we</sapn>?
+                        Who are <span class="bg-upwrit-yellow text-blue" style="font-family: Raleway;"> we</span>?
                     </h1>
                 </div>
 
