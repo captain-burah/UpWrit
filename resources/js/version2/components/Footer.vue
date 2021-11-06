@@ -67,7 +67,7 @@
                     </h2>
                     <ul class="space-y-4">
                         <li>
-                            <router-link to="ecommerce" class="hover:text-gray-900 transition-colors duration-200"> 
+                            <router-link to="careers" class="hover:text-gray-900 transition-colors duration-200"> 
                                 Careers
                             </router-link>
                         </li>

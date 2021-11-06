@@ -12,7 +12,7 @@
             </section>
         </div>
 
-        <div v-else-if="welcome">
+        <!-- <div v-else-if="welcome">
             <section class="absolute flex h-screen w-full bg-upwrit-white bg-opacity-95 z-50">
                 <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
                     <h1 class=" text-5xl md:text-9xl text-upwrit-info " 
@@ -29,7 +29,7 @@
                     </h1>
                 </div>
             </section>
-        </div>
+        </div> -->
 
             <!-- Header -->
             <header class="container">
@@ -432,21 +432,21 @@ export default {
     data() {
         return {
             loading: true,
-            welcome: false,
+            // welcome: false,
         };
     },
     created() {
         setTimeout(() => (
             this.loading = false
-        ), 1500);
+        ), 2000);
 
-        setTimeout(() => (
-            this.welcome = true
-        ), 1500);
+        // setTimeout(() => (
+        //     this.welcome = true
+        // ), 1500);
         
-        setTimeout(() => (
-            this.welcome = false
-        ), 4500);
+        // setTimeout(() => (
+        //     this.welcome = false
+        // ), 4500);
     },
 }
 </script>
