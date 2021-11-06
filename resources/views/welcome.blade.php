@@ -19,6 +19,9 @@
         <meta property="og:description" content="We'll help you to navigate through today's 
             evolutionized business environments providing a wide range of services for you & your business
             specialized by young & enthusiastic professionals on-board ready to kick-off." />
+        <meta property="og:image" content="img/v2/meta/UpWrit.png" />
+        <meta property="og:image:type" content="image/png" />
+        
 
         <!-- Twitter Meta Descriptions -->
         <meta name="twitter:card" content="summary_large_image">
@@ -60,6 +63,16 @@
         
         <!-- Script -->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V1W5YLCSHJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-V1W5YLCSHJ');
+        </script>
     </head>
     <body>
         <div id="app" class="">
