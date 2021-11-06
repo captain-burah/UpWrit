@@ -39,7 +39,7 @@
 
             <!-- Hero -->
             <section class=" relative">
-                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 my-auto">
+                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 my-auto md:pt-24">
                     <!-- Content -->
                     <div class="flex flex-1 flex-col items-center lg:items-start mt-2 lg:mt-60">
                         <h2 class="text-gray-600 text-4xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6 animate-pulse font-bold">
@@ -73,7 +73,7 @@
                     </div>
 
                     <!-- Image -->
-                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer mt-14 lg:mt-36">
+                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 imageContainer mt-14 lg:mt-36 my-auto">
                         <img
                             class="w-3/4 h-3/4 sm:w-3/4 sm:h-3/4" 
                             src="img/v2/new/10.svg" 
@@ -82,7 +82,7 @@
                     </div>
                     
                 </div>
-                <div class="hidden md:block container flex w-full move-bottom items-center text-center mt-40">
+                <div class="hidden md:block container flex w-full move-bottom items-center text-center mt-36 my-auto ">
                     <div class="text-center w-full">
                         <router-link :to="{hash: '#process'}">
                             <i class="fas fa-arrow-down text-center text-5xl text-gray-500 animate-bounce"></i>
@@ -96,14 +96,14 @@
                 <!-- Rounded Rectangle -->
                 <div 
                     class="hidden md:block overflow-hidden bg-gray-200 rounded-l-full absolute 
-                        h-60 w-2/4 top-80 right-0 lg:-bottom-28 lg:-right-0 opacity-90"
+                        h-60 w-2/4 top-80 right-0 lg:-bottom-28 lg:-right-0 opacity-90 md:mt-36"
                         data-aos="fade-left"
                 >
                 </div>
             </section>
 
             <!-- Intro -->
-            <section class="w-full py-20 mt-20 lg:mt-40" id="process">
+            <section class="w-full py-20 mt-20 " id="process">
                 <div class="container ">
                     
                     <div class="sm:w-3/4 lg:w-3/4 mx-auto px-12"
