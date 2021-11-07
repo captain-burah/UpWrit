@@ -4,9 +4,7 @@
 
         <!-- Standard Meta Descriptions -->
         <meta charset="utf-8" />
-        <meta name="description" content="We'll help you to navigate through today's 
-            evolutionized business environments providing a wide range of services for you & your business
-            specialized by young & enthusiastic professionals on-board ready to kick-off.">
+        <meta name="description" content="We'll help you to navigate through today's modern business environments providing a wide range of services for you & your business to grow specialized by young & enthusiastic professionals on-board, ready to kick-off.">
         <meta name="keywords" content="IT, Business, Solutions, Web, Design, Marketing, Writers">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
@@ -16,18 +14,14 @@
         <meta property="og:site_name" content="UpWrit Solutions" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://www.upwritsolutions.com" />
-        <meta property="og:description" content="We'll help you to navigate through today's 
-            evolutionized business environments providing a wide range of services for you & your business
-            specialized by young & enthusiastic professionals on-board ready to kick-off." />
+        <meta property="og:description" content="We'll help you to navigate through today's modern business environments providing a wide range of services for you & your business to grow specialized by young & enthusiastic professionals on-board, ready to kick-off." />
         <meta property="og:image" content="img/v2/meta/UpWrit.png" />
         <meta property="og:image:type" content="image/png" />
         
 
         <!-- Twitter Meta Descriptions -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:description" content="We'll help you to navigate through today's 
-            evolutionized business environments providing a wide range of services for you & your business
-            specialized by young & enthusiastic professionals on-board ready to kick-off." />
+        <meta name="twitter:description" content="We'll help you to navigate through today's modern business environments providing a wide range of services for you & your business to grow specialized by young & enthusiastic professionals on-board, ready to kick-off." />
         <meta name="twitter:title" content="UpWrit Solutions | Your Premium Tailor in Business Solutions">
         <meta name="twitter:image" content="img/v2/meta/UpWrit.png">
 

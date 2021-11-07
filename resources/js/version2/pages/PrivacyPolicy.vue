@@ -1,5 +1,5 @@
 <template>
-<div class="w-full">
+<div class="w-full bg-white">
         <div v-if="loading">
             <section class="absolute flex h-screen w-full bg-upwrit-white">
                 <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
@@ -14,7 +14,7 @@
         <div v-else>
 
             <!-- Hero -->
-            <section class="container relative mx-auto py-20 mt-20">
+            <section class="container relative mx-auto py-20 pt-10 md:pt-32">
                 <div class="flex flex-col mb-8">
                     <h1 class="order-1 text-gray-900 text-3xl font-extrabold tracking-tight mt-2">
                         Our Privacy Policy

@@ -22,10 +22,12 @@
                         Get a Quotation
                     </button>
                 </a>
-                <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black">
-                    <i class="far fa-calendar-check"></i>&nbsp;
-                    Schedule an Appointment
-                </button>
+                <a href="https://forms.gle/JVuR52N4mJ2xg7Mj9">
+                    <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black">
+                        <i class="far fa-calendar-check"></i>&nbsp;
+                        Schedule an Appointment
+                    </button>
+                </a>
             </div>
         </div>
         <div class="flex items-center vorder-b py-2 cursor-pointer w-40 mx-auto text-3xl">

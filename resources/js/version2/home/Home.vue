@@ -58,11 +58,12 @@
                                     Get a Quote 
                                 </button>
                             </a>
-
-                            <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black ">
-                                <i class="far fa-calendar-check"></i>&nbsp;
-                                Schedule an Appointment
-                            </button>
+                            <a href="https://forms.gle/JVuR52N4mJ2xg7Mj9">
+                                <button type="button" class="btn btn-info hover:bg-upwrit-yellow hover:text-black ">
+                                    <i class="far fa-calendar-check"></i>&nbsp;
+                                    Schedule an Appointment
+                                </button>
+                            </a>
                             <a href="https://forms.gle/FZaMPA9KcCSxLuTFA">
                                 <button type="button" class="btn btn-black hover:bg-white hover:text-black">
                                     <i class="fas fa-briefcase"></i>&nbsp;

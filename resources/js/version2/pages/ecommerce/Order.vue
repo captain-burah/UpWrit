@@ -1,5 +1,5 @@
 <template>
-<div class="w-full">
+<div class="w-full bg-white">
         <div v-if="loading">
             <section class="absolute flex h-screen w-full bg-upwrit-white">
                 <div class="m-auto flex justify-center items-center align-middle my-auto py-auto">
@@ -14,7 +14,7 @@
         <div v-else>        
 
             <!-- Hero -->
-            <section class="container relative mx-auto py-20">
+            <section class="container relative mx-auto py-20 lg:pt-32">
                 <div class="flex flex-col mb-8">
                     <h1 class="order-1 text-gray-900 text-3xl font-extrabold tracking-tight mt-2">
                         Order Detail Pages
@@ -48,8 +48,8 @@
                             </div>
                         </div>
                         <div class="rounded-lg ring-1 ring-gray-900 ring-opacity-5 overflow-hidden bg-white">
-                            <img class="sm:hidden w-full h-auto" loading="lazy" src="img/v2/ecommerce/sm/order-detail-pages.01-upwrit.jpg" alt="" width="375" height="5075">
-                            <img class="hidden sm:block w-full h-auto" loading="lazy" src="img/v2/ecommerce/lg/order-detail-pages.01-upwrit.jpg" alt="" width="1280" height="4120">
+                            <img class="sm:hidden w-full h-auto" loading="lazy" src="img/v2/ecommerce/sm/order-detail-pages.01-upwrit.png" alt="" width="375" height="5075">
+                            <img class="hidden sm:block w-full h-auto" loading="lazy" src="img/v2/ecommerce/lg/order-detail-pages.01-upwrit.png" alt="" width="1280" height="4120">
                         </div>
                     </section>
 
@@ -82,8 +82,8 @@
                             </div>
                         </div>
                         <div class="rounded-lg ring-1 ring-gray-900 ring-opacity-5 overflow-hidden bg-white">
-                            <img class="sm:hidden w-full h-auto" loading="lazy" src="img/v2/ecommerce/sm/order-detail-pages.03-upwrit.jpg" alt="" width="375" height="5075">
-                            <img class="hidden sm:block w-full h-auto" loading="lazy" src="img/v2/ecommerce/lg/order-detail-pages.03-upwrit.jpg" alt="" width="1280" height="4120">
+                            <img class="sm:hidden w-full h-auto" loading="lazy" src="img/v2/ecommerce/sm/order-detail-pages.03-upwrit.png" alt="" width="375" height="5075">
+                            <img class="hidden sm:block w-full h-auto" loading="lazy" src="img/v2/ecommerce/lg/order-detail-pages.03-upwrit.png" alt="" width="1280" height="4120">
                         </div>
                     </section>
 
